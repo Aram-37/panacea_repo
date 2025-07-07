@@ -1,0 +1,100 @@
+{
+  "timestamp": "2025-07-07T13:08:21.759986",
+  "analysis_summary": {
+    "best_paco_intensity": "100x_intensity",
+    "max_efficiency_gain": 660612.7226010765,
+    "max_speed_multiplier": 150.0,
+    "max_energy_savings_percentage": 93.33333333333333,
+    "deep_learning_baseline": "GPT-3 175B parameters"
+  },
+  "detailed_analysis": {
+    "efficiency_comparison": {
+      "deep_learning_average_efficiency": 0.0002270619303385417,
+      "paco_efficiencies": {
+        "1x_intensity": 0.08399999999999999,
+        "10x_intensity": 0.5666666666666667,
+        "50x_intensity": 7.22,
+        "100x_intensity": 150.0
+      },
+      "efficiency_ratios": {
+        "1x_intensity": 369.9431246566028,
+        "10x_intensity": 2495.6480631596223,
+        "50x_intensity": 31797.49238119848,
+        "100x_intensity": 660612.7226010765
+      },
+      "best_paco_intensity": "100x_intensity",
+      "max_efficiency_gain": 660612.7226010765
+    },
+    "speed_comparison": {
+      "1x_intensity": {
+        "paco_throughput": 20.0,
+        "effective_paco_throughput": 20.0,
+        "dl_baseline_throughput": 1000,
+        "speed_multiplier": 0.02,
+        "equivalent_training_time_hours": 36000.0,
+        "time_savings_hours": 0,
+        "time_savings_percentage": 0
+      },
+      "10x_intensity": {
+        "paco_throughput": 83.33333333333333,
+        "effective_paco_throughput": 208.33333333333331,
+        "dl_baseline_throughput": 1000,
+        "speed_multiplier": 0.20833333333333331,
+        "equivalent_training_time_hours": 3456.0000000000005,
+        "time_savings_hours": 0,
+        "time_savings_percentage": 0
+      },
+      "50x_intensity": {
+        "paco_throughput": 500.0,
+        "effective_paco_throughput": 4000.0,
+        "dl_baseline_throughput": 1000,
+        "speed_multiplier": 4.0,
+        "equivalent_training_time_hours": 180.0,
+        "time_savings_hours": 540.0,
+        "time_savings_percentage": 75.0
+      },
+      "100x_intensity": {
+        "paco_throughput": 10000.0,
+        "effective_paco_throughput": 150000.0,
+        "dl_baseline_throughput": 1000,
+        "speed_multiplier": 150.0,
+        "equivalent_training_time_hours": 4.8,
+        "time_savings_hours": 715.2,
+        "time_savings_percentage": 99.33333333333334
+      }
+    },
+    "energy_comparison": {
+      "1x_intensity": {
+        "paco_energy_per_task": 0.0038580246913580245,
+        "baseline_energy_per_task": 0.0038580246913580245,
+        "energy_efficiency_ratio": 1.0,
+        "energy_savings_percentage": 0.0
+      },
+      "10x_intensity": {
+        "paco_energy_per_task": 0.0015432098765432098,
+        "baseline_energy_per_task": 0.0038580246913580245,
+        "energy_efficiency_ratio": 2.5,
+        "energy_savings_percentage": 60.0
+      },
+      "50x_intensity": {
+        "paco_energy_per_task": 0.00048225308641975306,
+        "baseline_energy_per_task": 0.0038580246913580245,
+        "energy_efficiency_ratio": 8.0,
+        "energy_savings_percentage": 87.5
+      },
+      "100x_intensity": {
+        "paco_energy_per_task": 0.00025720164609053495,
+        "baseline_energy_per_task": 0.0038580246913580245,
+        "energy_efficiency_ratio": 15.000000000000002,
+        "energy_savings_percentage": 93.33333333333333
+      }
+    }
+  },
+  "recommendations": [
+    "Optimal PACO intensity: 100x_intensity provides 660612.72x efficiency over standard deep learning",
+    "For maximum speed: Use 100x_intensity intensity for 150.00x faster training",
+    "For energy efficiency: 100x_intensity intensity saves 93.3% energy",
+    "PACO demonstrates significant advantages over traditional deep learning approaches",
+    "Consider implementing PACO 100x intensity for production workloads requiring maximum efficiency"
+  ]
+}
