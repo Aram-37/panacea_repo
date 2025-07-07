@@ -1,0 +1,50 @@
+{
+  "extraction_timestamp": "2025-07-07T19:06:20.098877",
+  "files_processed": 21,
+  "total_dialogues_found": 309,
+  "high_quality_dialogues": 214,
+  "insights_selected": 309,
+  "score_distribution": {
+    "21-22": 29,
+    "19-20": 28,
+    "18-19": 41,
+    "17-18": 6,
+    "16-17": 96,
+    "15-16": 14,
+    "14-15": 18,
+    "13-14": 27,
+    "12-13": 13,
+    "11-12": 32,
+    "10-11": 5
+  },
+  "category_counts": {
+    "teaching_moment": 287,
+    "philosophical_depth": 276,
+    "breakthrough_moment": 278,
+    "rep_pattern": 248,
+    "emotional_depth": 245,
+    "core_concept": 275,
+    "korean_content": 127,
+    "bilingual": 127
+  },
+  "language_distribution": {
+    "korean": 127,
+    "bilingual": 127,
+    "english": 309
+  },
+  "extraction_parameters": {
+    "min_insight_score": 10.0,
+    "max_dialogues_per_file": 20,
+    "max_content_sample_size": 200000,
+    "scoring_weights": {
+      "teaching_moment": 3.0,
+      "philosophical_depth": 2.5,
+      "breakthrough_moment": 4.0,
+      "rep_pattern": 2.0,
+      "emotional_depth": 1.5,
+      "core_concept": 2.0,
+      "korean_bonus": 1.0,
+      "bilingual_bonus": 1.5
+    }
+  }
+}
