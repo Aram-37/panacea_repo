@@ -22,7 +22,6 @@ from datetime import datetime
 from typing import Dict, List, Any, Tuple, Optional
 from dataclasses import dataclass, field
 from pathlib import Path
-import numpy as np
 
 # Setup logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
