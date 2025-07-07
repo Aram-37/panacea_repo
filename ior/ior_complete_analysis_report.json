@@ -1,0 +1,166 @@
+{
+  "analysis_date": "2025-07-02 17:08:24",
+  "dataset_summary": {
+    "total_records": 10,
+    "celebrities": 5,
+    "systems_analyzed": 5
+  },
+  "mathematical_system_alignment": {
+    "overall_alignment": 0.21126590940767825,
+    "voodoo_bayesian_strength": 1.016758078213119,
+    "riemann_geometric_strength": 0.13813587343475714,
+    "computational_readiness": 0.4309745492574341,
+    "bayesian_voodoo_results": {
+      "bayesian_analysis": {
+        "prior_reality_state": 0.5,
+        "likelihood_low": 0.4416199441353622,
+        "likelihood_mid": 0.7120676311212514,
+        "likelihood_high": 0.95,
+        "posterior_low": 0.3148898743304306,
+        "posterior_mid": 0.5077281718277901,
+        "posterior_high": 0.6773819538417792
+      },
+      "intervention_matrix": {
+        "matrix": [
+          [
+            0.05,
+            0.1,
+            0.2
+          ],
+          [
+            0.15,
+            0.25,
+            0.4
+          ],
+          [
+            0.3,
+            0.5,
+            0.7
+          ]
+        ],
+        "intent_vector": [
+          0.2852457351646414,
+          0.47569133773951305,
+          0.6332705091637675
+        ],
+        "reality_change_vector": [
+          0.18848552236493687,
+          0.41501789837508146,
+          0.7667087458337861
+        ]
+      },
+      "direct_intervention_effect": 0.5083800558646377,
+      "reality_manipulation_strength": 1.016758078213119,
+      "cohens_d_effect_size": 1.016758078213119,
+      "intervention_efficiency": 1.0913368127755791,
+      "intervention_classification": "매우 강력한 개입",
+      "word_weights": {
+        "Elon Musk": 0.5333333333333333,
+        "Katy Perry": 0.56,
+        "Jeff Bezos": 0.54,
+        "Justin Bieber": 0.5230769230769231,
+        "Tom Cruise": 0.52
+      },
+      "max_manipulation_target": [
+        "Katy Perry",
+        0.56
+      ],
+      "statistical_significance": "True"
+    },
+    "riemann_astrology_results": {
+      "western_astrology": {
+        "riemann_curvatures": [
+          0.09984051558806661,
+          0.09984051558806661,
+          0.09984051558806661,
+          0.7120048003357757,
+          0.3417067170500262,
+          0.23095532379686867,
+          0.23095532379686867,
+          0.2549940013035973,
+          0.2549940013035973,
+          0.2549940013035973
+        ],
+        "average_curvature_strength": 0.2580125715654531,
+        "scalar_curvature": 0.2580125715654531,
+        "geodesic_deviations": [
+          0.0,
+          0.0,
+          0.6121642847477091,
+          0.37029808328574954,
+          0.11075139325315753,
+          0.0,
+          0.024038677506728612,
+          0.0,
+          0.0
+        ],
+        "geodesic_stability": 0,
+        "christoffel_symbols": [
+          1.0124703028857218,
+          1.0124703028857218,
+          1.0124703028857218,
+          0.8068060650005255,
+          1.2147381114314042,
+          1.2633034425126841,
+          1.2633034425126841,
+          1.2553963386050362,
+          1.2553963386050362,
+          1.2553963386050362
+        ],
+        "curvature_correlation": 0.3823866859217235,
+        "cosmic_alignment_strength": 0.09866057216705512,
+        "geometric_prediction_accuracy": 0.19999999999999996,
+        "curvature_classification": "약한 곡률"
+      },
+      "vedic_astrology": {
+        "riemann_curvatures": [
+          0.10000000000000009,
+          0.10000000000000009,
+          0.10000000000000009,
+          0.7731291568478127,
+          0.003553582159348423,
+          0.7731291568478127,
+          0.7731291568478127,
+          0.08413449636995884,
+          0.08413449636995884,
+          0.08413449636995884
+        ],
+        "average_curvature_strength": 0.28753445418126633,
+        "scalar_curvature": 0.28753445418126633,
+        "geodesic_deviations": [
+          0.0,
+          0.0,
+          0.6731291568478126,
+          0.7695755746884643,
+          0.7695755746884643,
+          0.0,
+          0.6889946604778538,
+          0.0,
+          0.0
+        ],
+        "geodesic_stability": 0,
+        "christoffel_symbols": [
+          1.0000000000000002,
+          1.0000000000000002,
+          1.0000000000000002,
+          0.6811065265829029,
+          1.2359532638380188,
+          0.6811065265829029,
+          0.6811065265829029,
+          1.1149036337588099,
+          1.1149036337588099,
+          1.1149036337588099
+        ],
+        "curvature_correlation": 0.6177039729315021,
+        "cosmic_alignment_strength": 0.17761117470245918,
+        "geometric_prediction_accuracy": 0.7142857142857143,
+        "curvature_classification": "약한 곡률"
+      }
+    }
+  },
+  "key_insights": [
+    "🔮 부두 시스템이 매우 강력한 현실 개입 능력을 보임 - 직접적 조작 가능",
+    "🧮 시스템들이 독립적 특성을 보임 - 앙상블 접근법 권장",
+    "⚡ 시스템들의 수학적 성숙도 개선 필요 - 추가 연구 요구"
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "total_celebrities": 5,
+  "total_marriages": 10,
+  "predictions": [
+    {
+      "name": "Elon Musk",
+      "natal_marriage_score": 0.19229993694036573,
+      "marriages": [
+        {
+          "spouse": "Justine Wilson",
+          "date": "2000-01-01",
+          "predicted_probability": 0.115,
+          "transit_score": 0.6
+        },
+        {
+          "spouse": "Talulah Riley",
+          "date": "2010-09-25",
+          "predicted_probability": 0.107,
+          "transit_score": 0.554
+        },
+        {
+          "spouse": "Talulah Riley",
+          "date": "2013-07-01",
+          "predicted_probability": 0.116,
+          "transit_score": 0.604
+        }
+      ]
+    },
+    {
+      "name": "Katy Perry",
+      "natal_marriage_score": 0.4272106203704991,
+      "marriages": [
+        {
+          "spouse": "Russell Brand",
+          "date": "2010-10-23",
+          "predicted_probability": 0.235,
+          "transit_score": 0.55
+        }
+      ]
+    },
+    {
+      "name": "Jeff Bezos",
+      "natal_marriage_score": 0.3648244310441683,
+      "marriages": [
+        {
+          "spouse": "MacKenzie Scott",
+          "date": "1993-09-04",
+          "predicted_probability": 0.27,
+          "transit_score": 0.741
+        }
+      ]
+    },
+    {
+      "name": "Justin Bieber",
+      "natal_marriage_score": 0.4371195246834412,
+      "marriages": [
+        {
+          "spouse": "Hailey Baldwin",
+          "date": "2018-09-13",
+          "predicted_probability": 0.222,
+          "transit_score": 0.509
+        },
+        {
+          "spouse": "Hailey Baldwin",
+          "date": "2019-09-30",
+          "predicted_probability": 0.337,
+          "transit_score": 0.772
+        }
+      ]
+    },
+    {
+      "name": "Tom Cruise",
+      "natal_marriage_score": 0.2911938555019553,
+      "marriages": [
+        {
+          "spouse": "Mimi Rogers",
+          "date": "1987-05-09",
+          "predicted_probability": 0.227,
+          "transit_score": 0.78
+        },
+        {
+          "spouse": "Nicole Kidman",
+          "date": "1990-12-24",
+          "predicted_probability": 0.194,
+          "transit_score": 0.667
+        },
+        {
+          "spouse": "Katie Holmes",
+          "date": "2006-11-18",
+          "predicted_probability": 0.216,
+          "transit_score": 0.742
+        }
+      ]
+    }
+  ],
+  "accuracy_metrics": {
+    "mean_predicted_score": 0.204,
+    "std_predicted_score": 0.07,
+    "total_marriages_analyzed": 10,
+    "note": "All events are actual marriages (ground truth = 1.0)"
+  }
+}
