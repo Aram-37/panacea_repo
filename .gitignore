@@ -1,0 +1,33 @@
+# Python Cache Files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Analysis Output Files
+*_analysis_*.json
+*_analysis_*.png
+*_visualization_*.png
+paco_vs_deep_learning_comparison.png
+paco_ior_unified_analysis.png
+ior_*.json
+ior_*.png
+
+# Temporary Files
+*.tmp
+*.temp
+.DS_Store
+.vscode/
+.idea/
+
+# Virtual Environment
+venv/
+env/
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
