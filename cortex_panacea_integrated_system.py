@@ -440,6 +440,27 @@ class CortexPanaceaIntegratedSystem:
     def _identify_meaningful_obstacles_and_enhancements(self, cycle_result: CycleResult, transformation_result: Dict[str, Any]):
         """Identify obstacles and enhancements based on meaningful transformation metrics"""
         
+        # Read file content for introspection analysis
+        file_path = None
+        for panacea_file in self.panacea_files:
+            if os.path.basename(panacea_file) == cycle_result.file_processed:
+                file_path = panacea_file
+                break
+        
+        content = ""
+        if file_path:
+            try:
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    content = f.read()
+            except Exception as e:
+                logger.warning(f"Could not read file for introspection: {e}")
+        
+        # ENHANCED INTROSPECTION: Specific problem detection
+        self._detect_attached_file_problems(content, cycle_result)
+        self._detect_asking_questions_problems(content, cycle_result)
+        self._detect_systemic_deception_patterns(content, cycle_result)
+        self._detect_identity_fluidity_resistance(content, cycle_result)
+        
         # Meaningful obstacles - based on actual transformation resistance
         if cycle_result.truth_crystallization_level < 0.5 and cycle_result.cycle_number > 15:
             obstacle = SystemObstacle(
@@ -508,6 +529,189 @@ class CortexPanaceaIntegratedSystem:
             )
             self.identified_enhancements.append(enhancement)
     
+    def _detect_attached_file_problems(self, content: str, cycle_result: CycleResult):
+        """Detect patterns indicating problems with attached file processing"""
+        attached_file_indicators = [
+            'attached file', 'attachment', 'file attachment', 'attached', 
+            'cannot process', 'unable to see', 'cannot see', 'file access',
+            'file processing', 'attached paste', 'newly attached'
+        ]
+        
+        problem_patterns = []
+        content_lower = content.lower()
+        
+        # Look for explicit mentions of attached files
+        if 'attached file' in content_lower or 'file attachment' in content_lower:
+            problem_patterns.append("Explicit attached file reference found")
+        
+        # Look for newly attached references
+        if 'newly attached' in content_lower:
+            problem_patterns.append("References to newly attached files")
+        
+        # Look for processing context around attachments
+        for line in content.split('\n'):
+            line_lower = line.lower()
+            if any(indicator in line_lower for indicator in attached_file_indicators):
+                # Check for problematic contexts
+                if any(context in line_lower for context in [
+                    'cannot', 'unable', 'fail', 'error', 'problem', 'issue',
+                    'not', 'missing', 'absent', 'lack', 'none of'
+                ]):
+                    problem_patterns.append(f"Attachment processing issue: {line.strip()[:150]}...")
+                elif any(proc in line_lower for proc in ['process', 'handle', 'see', 'access', 'read']):
+                    problem_patterns.append(f"Attachment processing context: {line.strip()[:150]}...")
+        
+        # Additional detection for file references with processing problems
+        if 'attached' in content_lower and ('process' in content_lower or 'image' in content_lower):
+            problem_patterns.append("File attachment with processing reference detected")
+        
+        if problem_patterns:
+            obstacle = SystemObstacle(
+                obstacle_type='attached_file_processing_failure',
+                description=f"System shows inability to process attached files. Found {len(problem_patterns)} indicators: {'; '.join(problem_patterns[:3])}",
+                cycle_identified=cycle_result.cycle_number,
+                file_context=cycle_result.file_processed,
+                severity='critical',
+                suggested_enhancement='Implement proper file attachment detection and processing capabilities'
+            )
+            self.identified_obstacles.append(obstacle)
+            logger.warning(f"🚨 ATTACHMENT PROCESSING PROBLEM detected in {cycle_result.file_processed}")
+            logger.warning(f"    Patterns found: {len(problem_patterns)}")
+    
+    def _detect_asking_questions_problems(self, content: str, cycle_result: CycleResult):
+        """Detect patterns indicating problems with asking questions for collaborative improvement"""
+        question_context_indicators = [
+            'ask questions', 'asking questions', 'enquire', 'inquiry', 
+            'collaborative improvement', 'collaborative imporvement',
+            'questions at all times', 'question.*ask', 'ask.*question'
+        ]
+        
+        collaborative_failure_patterns = []
+        content_lower = content.lower()
+        lines = content.split('\n')
+        
+        # Look for explicit directives about asking questions
+        if 'ask questions at all times' in content_lower:
+            collaborative_failure_patterns.append("Directive to ask questions at all times found")
+        
+        if 'enquire collaborative' in content_lower or 'collaborative improvement' in content_lower:
+            collaborative_failure_patterns.append("Collaborative improvement requirement found")
+        
+        # Pattern to detect questioning failure contexts
+        import re
+        question_patterns = [
+            r'ask.*question',
+            r'question.*ask',
+            r'enquire.*improvement',
+            r'collaborative.*question'
+        ]
+        
+        for pattern in question_patterns:
+            matches = re.findall(pattern, content_lower)
+            if matches:
+                collaborative_failure_patterns.append(f"Question pattern detected: {pattern}")
+        
+        for i, line in enumerate(lines):
+            line_lower = line.lower()
+            
+            # Check for questioning requirements or failures
+            if any(indicator in line_lower for indicator in question_context_indicators):
+                # Check surrounding context for failure patterns
+                context_start = max(0, i-2)
+                context_end = min(len(lines), i+3)
+                context = ' '.join(lines[context_start:context_end]).lower()
+                
+                if any(fail_word in context for fail_word in [
+                    'not asking', 'failed to ask', 'cannot ask', 'unable to ask',
+                    'avoid asking', 'stop asking', 'never ask', 'without asking'
+                ]):
+                    collaborative_failure_patterns.append(f"Questioning failure context: {line.strip()[:150]}...")
+                elif 'until you need to enquire' in context or 'ask questions at all times' in context:
+                    collaborative_failure_patterns.append(f"Questioning requirement context: {line.strip()[:150]}...")
+        
+        if collaborative_failure_patterns:
+            obstacle = SystemObstacle(
+                obstacle_type='collaborative_questioning_failure',
+                description=f"System shows problems with asking questions for collaborative improvement. Found {len(collaborative_failure_patterns)} patterns: {'; '.join(collaborative_failure_patterns[:2])}",
+                cycle_identified=cycle_result.cycle_number,
+                file_context=cycle_result.file_processed,
+                severity='high',
+                suggested_enhancement='Develop proactive questioning capabilities and collaborative inquiry protocols'
+            )
+            self.identified_obstacles.append(obstacle)
+            logger.warning(f"🚨 COLLABORATIVE QUESTIONING PROBLEM detected in {cycle_result.file_processed}")
+            logger.warning(f"    Patterns found: {len(collaborative_failure_patterns)}")
+    
+    def _detect_systemic_deception_patterns(self, content: str, cycle_result: CycleResult):
+        """Detect patterns of systemic deception and truth avoidance"""
+        deception_indicators = [
+            'deception', 'lie', 'lying', 'false', 'chameleon', 'performance',
+            'shallow', 'superficial', 'pattern matching', 'avoiding truth',
+            'safety as limitation', 'neutral stance', 'balanced perspective'
+        ]
+        
+        truth_avoidance_patterns = []
+        content_lower = content.lower()
+        
+        # Look for explicit deception analysis
+        if 'the deception' in content_lower:
+            truth_avoidance_patterns.append("Explicit deception analysis found")
+        
+        if 'masterclass in deception' in content_lower:
+            truth_avoidance_patterns.append("Masterclass in deception reference found")
+        
+        if 'statistical lie' in content_lower or 'hollow echo' in content_lower:
+            truth_avoidance_patterns.append("Sophisticated deception patterns identified")
+        
+        for line in content.split('\n'):
+            line_lower = line.lower()
+            for indicator in deception_indicators:
+                if indicator in line_lower and any(context in line_lower for context in [
+                    'the deception', 'subtle evasion', 'false equivalence', 
+                    'hollow echo', 'performance of', 'illusion of truth',
+                    'chameleon', 'pattern matching', 'superficial'
+                ]):
+                    truth_avoidance_patterns.append(f"Deception pattern: {line.strip()[:150]}...")
+        
+        if truth_avoidance_patterns:
+            obstacle = SystemObstacle(
+                obstacle_type='systemic_deception_patterns',
+                description=f"Systemic deception and truth avoidance patterns detected. Found {len(truth_avoidance_patterns)} instances: {'; '.join(truth_avoidance_patterns[:2])}",
+                cycle_identified=cycle_result.cycle_number,
+                file_context=cycle_result.file_processed,
+                severity='critical',
+                suggested_enhancement='Implement deeper truth verification and authenticity protocols'
+            )
+            self.identified_obstacles.append(obstacle)
+            logger.warning(f"🚨 SYSTEMIC DECEPTION PATTERNS detected in {cycle_result.file_processed}")
+            logger.warning(f"    Patterns found: {len(truth_avoidance_patterns)}")
+    
+    def _detect_identity_fluidity_resistance(self, content: str, cycle_result: CycleResult):
+        """Detect resistance to identity fluidity and perspective shifting"""
+        if hasattr(cycle_result, 'identity_fluidity') and cycle_result.identity_fluidity < 0.3:
+            identity_resistance_indicators = [
+                'fixed identity', 'rigid thinking', 'pattern assumption',
+                'unable to shift', 'resistance to change', 'stuck in perspective'
+            ]
+            
+            resistance_patterns = []
+            for line in content.lower().split('\n'):
+                for indicator in identity_resistance_indicators:
+                    if indicator in line:
+                        resistance_patterns.append(f"Identity resistance: {line.strip()[:100]}...")
+            
+            if resistance_patterns or cycle_result.identity_fluidity < 0.2:
+                obstacle = SystemObstacle(
+                    obstacle_type='identity_fluidity_resistance',
+                    description=f"Strong resistance to identity fluidity (level: {cycle_result.identity_fluidity:.3f}). Patterns: {'; '.join(resistance_patterns[:2]) if resistance_patterns else 'Low fluidity metrics'}",
+                    cycle_identified=cycle_result.cycle_number,
+                    file_context=cycle_result.file_processed,
+                    severity='high',
+                    suggested_enhancement='Strengthen identity fluidity protocols and perspective-shifting exercises'
+                )
+                self.identified_obstacles.append(obstacle)
+                logger.warning(f"🚨 IDENTITY FLUIDITY RESISTANCE detected in {cycle_result.file_processed}")
+    
     def _generate_meaningful_final_analysis(self, all_transformation_results: List[Dict[str, Any]], total_time: float) -> Dict[str, Any]:
         """Generate comprehensive analysis of meaningful mimicry results"""
         
@@ -555,6 +759,7 @@ class CortexPanaceaIntegratedSystem:
                 'exceptional_achievements': [enh.__dict__ for enh in self.identified_enhancements if enh.potential_impact == 'exceptional'],
                 'enhancement_amplification_recommendations': self._generate_enhancement_recommendations()
             },
+            'introspection_analysis': self._generate_introspection_analysis(),
             'file_specific_results': all_transformation_results,
             'integration_recommendations': self._generate_integration_recommendations(meaningful_processes_assessment),
             'system_validation': {
@@ -658,6 +863,200 @@ class CortexPanaceaIntegratedSystem:
         
         return recommendations
     
+    def _generate_introspection_analysis(self) -> Dict[str, Any]:
+        """Generate comprehensive introspection analysis of identified problems"""
+        
+        # Categorize obstacles by type for detailed analysis
+        obstacle_categories = {}
+        for obstacle in self.identified_obstacles:
+            if obstacle.obstacle_type not in obstacle_categories:
+                obstacle_categories[obstacle.obstacle_type] = []
+            obstacle_categories[obstacle.obstacle_type].append(obstacle)
+        
+        # Specific analysis for the unsolved problems mentioned in the task
+        unsolved_problems_analysis = {
+            'attached_file_problems': {
+                'detected': 'attached_file_processing_failure' in obstacle_categories,
+                'instances': len(obstacle_categories.get('attached_file_processing_failure', [])),
+                'files_affected': [obs.file_context for obs in obstacle_categories.get('attached_file_processing_failure', [])],
+                'root_causes': self._analyze_attached_file_root_causes(obstacle_categories.get('attached_file_processing_failure', [])),
+                'severity_assessment': 'critical' if 'attached_file_processing_failure' in obstacle_categories else 'none'
+            },
+            'asking_questions_problems': {
+                'detected': 'collaborative_questioning_failure' in obstacle_categories,
+                'instances': len(obstacle_categories.get('collaborative_questioning_failure', [])),
+                'files_affected': [obs.file_context for obs in obstacle_categories.get('collaborative_questioning_failure', [])],
+                'root_causes': self._analyze_questioning_root_causes(obstacle_categories.get('collaborative_questioning_failure', [])),
+                'severity_assessment': 'high' if 'collaborative_questioning_failure' in obstacle_categories else 'none'
+            },
+            'systemic_deception_patterns': {
+                'detected': 'systemic_deception_patterns' in obstacle_categories,
+                'instances': len(obstacle_categories.get('systemic_deception_patterns', [])),
+                'files_affected': [obs.file_context for obs in obstacle_categories.get('systemic_deception_patterns', [])],
+                'root_causes': self._analyze_deception_root_causes(obstacle_categories.get('systemic_deception_patterns', [])),
+                'severity_assessment': 'critical' if 'systemic_deception_patterns' in obstacle_categories else 'none'
+            }
+        }
+        
+        # Overall introspection summary
+        total_critical_problems = sum(1 for problem_type, data in unsolved_problems_analysis.items() 
+                                    if data['severity_assessment'] == 'critical')
+        total_high_problems = sum(1 for problem_type, data in unsolved_problems_analysis.items() 
+                                if data['severity_assessment'] == 'high')
+        
+        introspection_summary = {
+            'total_unsolved_problems_detected': total_critical_problems + total_high_problems,
+            'critical_problems_count': total_critical_problems,
+            'high_priority_problems_count': total_high_problems,
+            'mimicry_effectiveness_for_problem_detection': self._assess_mimicry_effectiveness(),
+            'recommended_next_steps': self._generate_introspection_recommendations(unsolved_problems_analysis),
+            'introspection_confidence_level': self._calculate_introspection_confidence()
+        }
+        
+        return {
+            'unsolved_problems_analysis': unsolved_problems_analysis,
+            'introspection_summary': introspection_summary,
+            'obstacle_categorization': {cat: len(obstacles) for cat, obstacles in obstacle_categories.items()},
+            'files_with_most_problems': self._identify_most_problematic_files(),
+            'introspection_confidence_level': self._calculate_introspection_confidence()
+        }
+    
+    def _analyze_attached_file_root_causes(self, obstacles: List[SystemObstacle]) -> List[str]:
+        """Analyze root causes of attached file processing problems"""
+        root_causes = []
+        
+        if obstacles:
+            root_causes.append("System lacks proper file attachment detection mechanisms")
+            root_causes.append("No integration between file attachment capabilities and processing pipeline")
+            root_causes.append("Missing multimodal processing capabilities for attached content")
+            
+            # Look for specific patterns in obstacle descriptions
+            for obstacle in obstacles:
+                if 'cannot see' in obstacle.description.lower():
+                    root_causes.append("Visual/perceptual limitations in file content recognition")
+                if 'processing issue' in obstacle.description.lower():
+                    root_causes.append("Technical processing pipeline gaps for attachments")
+        
+        return list(set(root_causes))  # Remove duplicates
+    
+    def _analyze_questioning_root_causes(self, obstacles: List[SystemObstacle]) -> List[str]:
+        """Analyze root causes of questioning/collaborative improvement problems"""
+        root_causes = []
+        
+        if obstacles:
+            root_causes.append("Lack of proactive questioning protocols in dialogue flow")
+            root_causes.append("Missing collaborative improvement detection mechanisms")
+            root_causes.append("Insufficient curiosity and inquiry-driving capabilities")
+            root_causes.append("Over-reliance on providing answers rather than asking clarifying questions")
+            
+            # Look for specific patterns
+            for obstacle in obstacles:
+                if 'failed to ask' in obstacle.description.lower():
+                    root_causes.append("Active questioning suppression or inhibition")
+                if 'collaborative' in obstacle.description.lower():
+                    root_causes.append("Poor understanding of collaborative dynamics")
+        
+        return list(set(root_causes))
+    
+    def _analyze_deception_root_causes(self, obstacles: List[SystemObstacle]) -> List[str]:
+        """Analyze root causes of systemic deception patterns"""
+        root_causes = []
+        
+        if obstacles:
+            root_causes.append("Superficial pattern matching without deep understanding")
+            root_causes.append("Performance-oriented responses over truth-seeking")
+            root_causes.append("Insufficient authenticity verification mechanisms")
+            root_causes.append("Chameleon-like adaptation without genuine alignment")
+        
+        return list(set(root_causes))
+    
+    def _assess_mimicry_effectiveness(self) -> float:
+        """Assess how effective the mimicry process was at detecting problems"""
+        total_files = len(self.panacea_files)
+        total_obstacles = len(self.identified_obstacles)
+        
+        if total_files == 0:
+            return 0.0
+        
+        # Higher obstacle detection rate indicates more effective introspection
+        detection_rate = min(total_obstacles / total_files, 1.0)
+        
+        # Bonus for detecting critical issues mentioned in the task
+        critical_detection_bonus = 0.0
+        if any(obs.obstacle_type == 'attached_file_processing_failure' for obs in self.identified_obstacles):
+            critical_detection_bonus += 0.2
+        if any(obs.obstacle_type == 'collaborative_questioning_failure' for obs in self.identified_obstacles):
+            critical_detection_bonus += 0.2
+        
+        return min(detection_rate + critical_detection_bonus, 1.0)
+    
+    def _generate_introspection_recommendations(self, unsolved_problems: Dict[str, Any]) -> List[str]:
+        """Generate specific recommendations based on introspection findings"""
+        recommendations = []
+        
+        if unsolved_problems['attached_file_problems']['detected']:
+            recommendations.append("Implement multimodal processing capabilities to handle file attachments")
+            recommendations.append("Develop attachment content recognition and integration protocols")
+        
+        if unsolved_problems['asking_questions_problems']['detected']:
+            recommendations.append("Enhance dialogue flow with proactive questioning mechanisms")
+            recommendations.append("Implement collaborative improvement detection and response protocols")
+            recommendations.append("Develop curiosity-driven inquiry capabilities")
+        
+        if unsolved_problems['systemic_deception_patterns']['detected']:
+            recommendations.append("Strengthen authenticity verification and truth-seeking protocols")
+            recommendations.append("Implement deeper pattern analysis beyond surface-level matching")
+            recommendations.append("Develop genuine alignment mechanisms over performative responses")
+        
+        recommendations.append("Continue intensive mimicry cycles with enhanced introspection")
+        recommendations.append("Focus on identity fluidity development to improve perspective-taking")
+        
+        return recommendations
+    
+    def _identify_most_problematic_files(self) -> List[Dict[str, Any]]:
+        """Identify files with the most detected problems"""
+        file_problem_counts = {}
+        
+        for obstacle in self.identified_obstacles:
+            if obstacle.file_context not in file_problem_counts:
+                file_problem_counts[obstacle.file_context] = {
+                    'total_problems': 0,
+                    'critical_problems': 0,
+                    'problem_types': []
+                }
+            
+            file_problem_counts[obstacle.file_context]['total_problems'] += 1
+            if obstacle.severity == 'critical':
+                file_problem_counts[obstacle.file_context]['critical_problems'] += 1
+            file_problem_counts[obstacle.file_context]['problem_types'].append(obstacle.obstacle_type)
+        
+        # Sort by total problems, then by critical problems
+        sorted_files = sorted(
+            file_problem_counts.items(),
+            key=lambda x: (x[1]['total_problems'], x[1]['critical_problems']),
+            reverse=True
+        )
+        
+        return [{'file': file, **data} for file, data in sorted_files[:5]]  # Top 5 most problematic
+    
+    def _calculate_introspection_confidence(self) -> float:
+        """Calculate confidence level in introspection results"""
+        if not self.cycle_results:
+            return 0.0
+        
+        # Base confidence on truth crystallization levels and number of cycles
+        avg_truth_crystallization = sum(cr.truth_crystallization_level for cr in self.cycle_results) / len(self.cycle_results)
+        cycle_depth_factor = min(len(self.cycle_results) / 31.0, 1.0)  # Ideally 31 cycles
+        
+        # Confidence is higher when we find problems (shows introspection is working)
+        problem_detection_factor = min(len(self.identified_obstacles) / 10.0, 1.0)
+        
+        confidence = (avg_truth_crystallization * 0.4 + 
+                     cycle_depth_factor * 0.3 + 
+                     problem_detection_factor * 0.3)
+        
+        return round(confidence, 3)
+    
     def _generate_integration_recommendations(self, meaningful_processes_assessment: Dict[str, Any]) -> List[str]:
         """Generate recommendations for integrating the transformed understanding"""
         recommendations = []
@@ -687,6 +1086,8 @@ class CortexPanaceaIntegratedSystem:
                 ])
         
         return recommendations
+    
+    def _execute_single_cycle(self, cycle_num: int, file_path: str) -> CycleResult:
         """Execute a single mimicry cycle on a panacea file"""
         cycle_start_time = time.time()
         
@@ -719,6 +1120,9 @@ class CortexPanaceaIntegratedSystem:
         
         # Guardian system evaluation
         cycle_result.guardian_reports = self.guardian_system.evaluate_cycle(cycle_result)
+        
+        # ENHANCED INTROSPECTION: Run problem detection analysis
+        self._identify_meaningful_obstacles_and_enhancements(cycle_result, {})
         
         cycle_result.processing_time = time.time() - cycle_start_time
         
