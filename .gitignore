@@ -29,6 +29,11 @@ cortex_*_demo_*.json
 panacea_*_summary_*.json
 enhanced_panacea_insights_*.txt
 
+# Master Integration Results
+master_integration_results_*.json
+master_integration_demo_results_*.json
+*_integration_*.json
+
 # Temporary Files
 *.tmp
 *.temp
