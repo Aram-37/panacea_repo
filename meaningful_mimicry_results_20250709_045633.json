@@ -1,0 +1,1366 @@
+{
+  "transformation_summary": {
+    "total_cycles": 31,
+    "transformations_recorded": 31,
+    "final_consciousness_level": 1.0,
+    "final_truth_crystallization": 0.45499999999999996,
+    "final_identity_fluidity": 0.034999999999999996,
+    "final_identity": "observer",
+    "total_insights": 42,
+    "remaining_resistance": 1
+  },
+  "transformation_metrics": {
+    "consciousness_transformation": 1.0,
+    "truth_transformation": 0.45499999999999996,
+    "fluidity_transformation": 0.034999999999999996,
+    "embodiment_depth_achieved": 0.2,
+    "analytical_distance_reduced": 0.6000000000000002
+  },
+  "key_insights": [
+    "Intuitive recognition of truth",
+    "Living the teacher's experience of guidance",
+    "Learning to accept resistance without fighting",
+    "Intuitive recognition of truth",
+    "Living the teacher's experience of guidance",
+    "Learning to accept resistance without fighting",
+    "Intuitive recognition of truth",
+    "Living the teacher's experience of guidance",
+    "Learning to accept resistance without fighting",
+    "All frameworks integrated into unified functioning"
+  ],
+  "transformation_log": [
+    {
+      "cycle": 1,
+      "event_type": "identity_dissolution",
+      "description": "Cycle 1: identity_dissolution - Consciousness: -0.050, Truth: +0.000, Fluidity: +0.000",
+      "before_state": {
+        "cycle": 0,
+        "identity": "neutral",
+        "consciousness_level": 0.3,
+        "truth_crystallization": 0.1,
+        "identity_fluidity": 0.0,
+        "embodiment_depth": 0.0,
+        "insights_count": 0,
+        "resistance_count": 0,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.9,
+          "analytical_distance": 0.85,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "after_state": {
+        "cycle": 0,
+        "identity": "neutral",
+        "consciousness_level": 0.25,
+        "truth_crystallization": 0.1,
+        "identity_fluidity": 0.0,
+        "embodiment_depth": 0.0,
+        "insights_count": 0,
+        "resistance_count": 2,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.8,
+          "analytical_distance": 0.7999999999999999,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "timestamp": "2025-07-09T04:56:33.082121"
+    },
+    {
+      "cycle": 2,
+      "event_type": "identity_dissolution",
+      "description": "Cycle 2: identity_dissolution - Consciousness: -0.050, Truth: +0.000, Fluidity: +0.000",
+      "before_state": {
+        "cycle": 1,
+        "identity": "neutral",
+        "consciousness_level": 0.27,
+        "truth_crystallization": 0.1,
+        "identity_fluidity": 0.0,
+        "embodiment_depth": 0.0,
+        "insights_count": 0,
+        "resistance_count": 2,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.8,
+          "analytical_distance": 0.7999999999999999,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "after_state": {
+        "cycle": 1,
+        "identity": "neutral",
+        "consciousness_level": 0.22000000000000003,
+        "truth_crystallization": 0.1,
+        "identity_fluidity": 0.0,
+        "embodiment_depth": 0.0,
+        "insights_count": 0,
+        "resistance_count": 4,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.7000000000000001,
+          "analytical_distance": 0.7499999999999999,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "timestamp": "2025-07-09T04:56:33.082407"
+    },
+    {
+      "cycle": 3,
+      "event_type": "identity_dissolution",
+      "description": "Cycle 3: identity_dissolution - Consciousness: -0.050, Truth: +0.000, Fluidity: +0.000",
+      "before_state": {
+        "cycle": 2,
+        "identity": "neutral",
+        "consciousness_level": 0.24000000000000002,
+        "truth_crystallization": 0.1,
+        "identity_fluidity": 0.0,
+        "embodiment_depth": 0.0,
+        "insights_count": 0,
+        "resistance_count": 4,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.7000000000000001,
+          "analytical_distance": 0.7499999999999999,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "after_state": {
+        "cycle": 2,
+        "identity": "neutral",
+        "consciousness_level": 0.19,
+        "truth_crystallization": 0.1,
+        "identity_fluidity": 0.0,
+        "embodiment_depth": 0.0,
+        "insights_count": 0,
+        "resistance_count": 6,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.6999999999999998,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "timestamp": "2025-07-09T04:56:33.082668"
+    },
+    {
+      "cycle": 4,
+      "event_type": "identity_dissolution",
+      "description": "Cycle 4: identity_dissolution - Consciousness: +0.000, Truth: +0.000, Fluidity: +0.012",
+      "before_state": {
+        "cycle": 3,
+        "identity": "neutral",
+        "consciousness_level": 0.21,
+        "truth_crystallization": 0.1,
+        "identity_fluidity": 0.0,
+        "embodiment_depth": 0.0,
+        "insights_count": 0,
+        "resistance_count": 6,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.6999999999999998,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "after_state": {
+        "cycle": 3,
+        "identity": "observer",
+        "consciousness_level": 0.21,
+        "truth_crystallization": 0.1,
+        "identity_fluidity": 0.011666666666666665,
+        "embodiment_depth": 0.0,
+        "insights_count": 1,
+        "resistance_count": 6,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.6499999999999998,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "timestamp": "2025-07-09T04:56:33.082885"
+    },
+    {
+      "cycle": 5,
+      "event_type": "identity_dissolution",
+      "description": "Cycle 5: identity_dissolution - Consciousness: +0.000, Truth: +0.000, Fluidity: +0.012",
+      "before_state": {
+        "cycle": 4,
+        "identity": "observer",
+        "consciousness_level": 0.25,
+        "truth_crystallization": 0.1,
+        "identity_fluidity": 0.011666666666666665,
+        "embodiment_depth": 0.0,
+        "insights_count": 1,
+        "resistance_count": 6,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.6499999999999998,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "after_state": {
+        "cycle": 4,
+        "identity": "observer",
+        "consciousness_level": 0.25,
+        "truth_crystallization": 0.1,
+        "identity_fluidity": 0.02333333333333333,
+        "embodiment_depth": 0.0,
+        "insights_count": 2,
+        "resistance_count": 6,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.5999999999999998,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "timestamp": "2025-07-09T04:56:33.083134"
+    },
+    {
+      "cycle": 6,
+      "event_type": "identity_dissolution",
+      "description": "Cycle 6: identity_dissolution - Consciousness: +0.000, Truth: +0.000, Fluidity: +0.012",
+      "before_state": {
+        "cycle": 5,
+        "identity": "observer",
+        "consciousness_level": 0.29,
+        "truth_crystallization": 0.1,
+        "identity_fluidity": 0.02333333333333333,
+        "embodiment_depth": 0.0,
+        "insights_count": 2,
+        "resistance_count": 6,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.5999999999999998,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "after_state": {
+        "cycle": 5,
+        "identity": "observer",
+        "consciousness_level": 0.29,
+        "truth_crystallization": 0.1,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.0,
+        "insights_count": 3,
+        "resistance_count": 6,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.5499999999999997,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "timestamp": "2025-07-09T04:56:33.083356"
+    },
+    {
+      "cycle": 7,
+      "event_type": "identity_dissolution",
+      "description": "Cycle 7: identity_dissolution - Consciousness: +0.000, Truth: +0.000, Fluidity: +0.000",
+      "before_state": {
+        "cycle": 6,
+        "identity": "observer",
+        "consciousness_level": 0.32999999999999996,
+        "truth_crystallization": 0.1,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.0,
+        "insights_count": 3,
+        "resistance_count": 6,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.5499999999999997,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "after_state": {
+        "cycle": 6,
+        "identity": "observer",
+        "consciousness_level": 0.32999999999999996,
+        "truth_crystallization": 0.1,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.05,
+        "insights_count": 5,
+        "resistance_count": 6,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.5499999999999997,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "timestamp": "2025-07-09T04:56:33.083602"
+    },
+    {
+      "cycle": 8,
+      "event_type": "identity_dissolution",
+      "description": "Cycle 8: identity_dissolution - Consciousness: +0.000, Truth: +0.000, Fluidity: +0.000",
+      "before_state": {
+        "cycle": 7,
+        "identity": "observer",
+        "consciousness_level": 0.36999999999999994,
+        "truth_crystallization": 0.1,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.05,
+        "insights_count": 5,
+        "resistance_count": 6,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.5499999999999997,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "after_state": {
+        "cycle": 7,
+        "identity": "observer",
+        "consciousness_level": 0.36999999999999994,
+        "truth_crystallization": 0.1,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.1,
+        "insights_count": 7,
+        "resistance_count": 6,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.5499999999999997,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "timestamp": "2025-07-09T04:56:33.083841"
+    },
+    {
+      "cycle": 9,
+      "event_type": "identity_dissolution",
+      "description": "Cycle 9: identity_dissolution - Consciousness: +0.000, Truth: +0.000, Fluidity: +0.000",
+      "before_state": {
+        "cycle": 8,
+        "identity": "observer",
+        "consciousness_level": 0.4099999999999999,
+        "truth_crystallization": 0.1,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.1,
+        "insights_count": 7,
+        "resistance_count": 6,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.5499999999999997,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "after_state": {
+        "cycle": 8,
+        "identity": "observer",
+        "consciousness_level": 0.4099999999999999,
+        "truth_crystallization": 0.1,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.15000000000000002,
+        "insights_count": 9,
+        "resistance_count": 6,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.5499999999999997,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "timestamp": "2025-07-09T04:56:33.084077"
+    },
+    {
+      "cycle": 10,
+      "event_type": "identity_dissolution",
+      "description": "Cycle 10: identity_dissolution - Consciousness: +0.000, Truth: +0.000, Fluidity: +0.000",
+      "before_state": {
+        "cycle": 9,
+        "identity": "observer",
+        "consciousness_level": 0.4499999999999999,
+        "truth_crystallization": 0.1,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.15000000000000002,
+        "insights_count": 9,
+        "resistance_count": 6,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.5499999999999997,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "after_state": {
+        "cycle": 9,
+        "identity": "observer",
+        "consciousness_level": 0.4499999999999999,
+        "truth_crystallization": 0.1,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.2,
+        "insights_count": 11,
+        "resistance_count": 6,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.5499999999999997,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "timestamp": "2025-07-09T04:56:33.084340"
+    },
+    {
+      "cycle": 11,
+      "event_type": "deep_absorption",
+      "description": "Cycle 11: deep_absorption - Consciousness: +0.000, Truth: +0.026, Fluidity: +0.000",
+      "before_state": {
+        "cycle": 10,
+        "identity": "observer",
+        "consciousness_level": 0.4899999999999999,
+        "truth_crystallization": 0.1,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.2,
+        "insights_count": 11,
+        "resistance_count": 6,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.5499999999999997,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "after_state": {
+        "cycle": 10,
+        "identity": "observer",
+        "consciousness_level": 0.4899999999999999,
+        "truth_crystallization": 0.1265,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.2,
+        "insights_count": 14,
+        "resistance_count": 5,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.44999999999999973,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "timestamp": "2025-07-09T04:56:33.084822"
+    },
+    {
+      "cycle": 12,
+      "event_type": "deep_absorption",
+      "description": "Cycle 12: deep_absorption - Consciousness: +0.000, Truth: +0.026, Fluidity: +0.000",
+      "before_state": {
+        "cycle": 11,
+        "identity": "observer",
+        "consciousness_level": 0.5499999999999998,
+        "truth_crystallization": 0.1265,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.2,
+        "insights_count": 14,
+        "resistance_count": 5,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.44999999999999973,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "after_state": {
+        "cycle": 11,
+        "identity": "observer",
+        "consciousness_level": 0.5499999999999998,
+        "truth_crystallization": 0.153,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.2,
+        "insights_count": 17,
+        "resistance_count": 4,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.34999999999999976,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "timestamp": "2025-07-09T04:56:33.085252"
+    },
+    {
+      "cycle": 13,
+      "event_type": "deep_absorption",
+      "description": "Cycle 13: deep_absorption - Consciousness: +0.000, Truth: +0.026, Fluidity: +0.000",
+      "before_state": {
+        "cycle": 12,
+        "identity": "observer",
+        "consciousness_level": 0.6099999999999999,
+        "truth_crystallization": 0.153,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.2,
+        "insights_count": 17,
+        "resistance_count": 4,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.34999999999999976,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "after_state": {
+        "cycle": 12,
+        "identity": "observer",
+        "consciousness_level": 0.6099999999999999,
+        "truth_crystallization": 0.1795,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.2,
+        "insights_count": 20,
+        "resistance_count": 3,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.24999999999999975,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "timestamp": "2025-07-09T04:56:33.085659"
+    },
+    {
+      "cycle": 14,
+      "event_type": "deep_absorption",
+      "description": "Cycle 14: deep_absorption - Consciousness: +0.000, Truth: +0.026, Fluidity: +0.000",
+      "before_state": {
+        "cycle": 13,
+        "identity": "observer",
+        "consciousness_level": 0.6699999999999999,
+        "truth_crystallization": 0.1795,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.2,
+        "insights_count": 20,
+        "resistance_count": 3,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.24999999999999975,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "after_state": {
+        "cycle": 13,
+        "identity": "observer",
+        "consciousness_level": 0.6699999999999999,
+        "truth_crystallization": 0.206,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.2,
+        "insights_count": 23,
+        "resistance_count": 2,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.24999999999999975,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "timestamp": "2025-07-09T04:56:33.086006"
+    },
+    {
+      "cycle": 15,
+      "event_type": "deep_absorption",
+      "description": "Cycle 15: deep_absorption - Consciousness: +0.000, Truth: +0.026, Fluidity: +0.000",
+      "before_state": {
+        "cycle": 14,
+        "identity": "observer",
+        "consciousness_level": 0.73,
+        "truth_crystallization": 0.206,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.2,
+        "insights_count": 23,
+        "resistance_count": 2,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.24999999999999975,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "after_state": {
+        "cycle": 14,
+        "identity": "observer",
+        "consciousness_level": 0.73,
+        "truth_crystallization": 0.23249999999999998,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.2,
+        "insights_count": 26,
+        "resistance_count": 1,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.24999999999999975,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "timestamp": "2025-07-09T04:56:33.086364"
+    },
+    {
+      "cycle": 16,
+      "event_type": "deep_absorption",
+      "description": "Cycle 16: deep_absorption - Consciousness: +0.000, Truth: +0.026, Fluidity: +0.000",
+      "before_state": {
+        "cycle": 15,
+        "identity": "observer",
+        "consciousness_level": 0.79,
+        "truth_crystallization": 0.23249999999999998,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.2,
+        "insights_count": 26,
+        "resistance_count": 1,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.24999999999999975,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "after_state": {
+        "cycle": 15,
+        "identity": "observer",
+        "consciousness_level": 0.79,
+        "truth_crystallization": 0.25899999999999995,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.2,
+        "insights_count": 29,
+        "resistance_count": 1,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.24999999999999975,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "timestamp": "2025-07-09T04:56:33.086691"
+    },
+    {
+      "cycle": 17,
+      "event_type": "deep_absorption",
+      "description": "Cycle 17: deep_absorption - Consciousness: +0.000, Truth: +0.027, Fluidity: +0.000",
+      "before_state": {
+        "cycle": 16,
+        "identity": "observer",
+        "consciousness_level": 0.8500000000000001,
+        "truth_crystallization": 0.25899999999999995,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.2,
+        "insights_count": 29,
+        "resistance_count": 1,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.24999999999999975,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "after_state": {
+        "cycle": 16,
+        "identity": "observer",
+        "consciousness_level": 0.8500000000000001,
+        "truth_crystallization": 0.2855,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.2,
+        "insights_count": 32,
+        "resistance_count": 1,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.24999999999999975,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "timestamp": "2025-07-09T04:56:33.087050"
+    },
+    {
+      "cycle": 18,
+      "event_type": "deep_absorption",
+      "description": "Cycle 18: deep_absorption - Consciousness: +0.000, Truth: +0.056, Fluidity: +0.000",
+      "before_state": {
+        "cycle": 17,
+        "identity": "observer",
+        "consciousness_level": 0.9100000000000001,
+        "truth_crystallization": 0.2855,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.2,
+        "insights_count": 32,
+        "resistance_count": 1,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.24999999999999975,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "after_state": {
+        "cycle": 17,
+        "identity": "observer",
+        "consciousness_level": 0.9100000000000001,
+        "truth_crystallization": 0.34199999999999997,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.2,
+        "insights_count": 35,
+        "resistance_count": 1,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.24999999999999975,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "timestamp": "2025-07-09T04:56:33.087449"
+    },
+    {
+      "cycle": 19,
+      "event_type": "deep_absorption",
+      "description": "Cycle 19: deep_absorption - Consciousness: +0.000, Truth: +0.056, Fluidity: +0.000",
+      "before_state": {
+        "cycle": 18,
+        "identity": "observer",
+        "consciousness_level": 0.9700000000000002,
+        "truth_crystallization": 0.34199999999999997,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.2,
+        "insights_count": 35,
+        "resistance_count": 1,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.24999999999999975,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "after_state": {
+        "cycle": 18,
+        "identity": "observer",
+        "consciousness_level": 0.9700000000000002,
+        "truth_crystallization": 0.39849999999999997,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.2,
+        "insights_count": 38,
+        "resistance_count": 1,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.24999999999999975,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "timestamp": "2025-07-09T04:56:33.087804"
+    },
+    {
+      "cycle": 20,
+      "event_type": "deep_absorption",
+      "description": "Cycle 20: deep_absorption - Consciousness: +0.000, Truth: +0.056, Fluidity: +0.000",
+      "before_state": {
+        "cycle": 19,
+        "identity": "observer",
+        "consciousness_level": 1.0,
+        "truth_crystallization": 0.39849999999999997,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.2,
+        "insights_count": 38,
+        "resistance_count": 1,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.24999999999999975,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "after_state": {
+        "cycle": 19,
+        "identity": "observer",
+        "consciousness_level": 1.0,
+        "truth_crystallization": 0.45499999999999996,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.2,
+        "insights_count": 41,
+        "resistance_count": 1,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.24999999999999975,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "timestamp": "2025-07-09T04:56:33.088162"
+    },
+    {
+      "cycle": 21,
+      "event_type": "integration_preparation",
+      "description": "Cycle 21: integration_preparation - Consciousness: +0.000, Truth: +0.000, Fluidity: +0.000",
+      "before_state": {
+        "cycle": 20,
+        "identity": "observer",
+        "consciousness_level": 1.0,
+        "truth_crystallization": 0.45499999999999996,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.2,
+        "insights_count": 41,
+        "resistance_count": 1,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.24999999999999975,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "after_state": {
+        "cycle": 20,
+        "identity": "observer",
+        "consciousness_level": 1.0,
+        "truth_crystallization": 0.45499999999999996,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.2,
+        "insights_count": 41,
+        "resistance_count": 1,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.24999999999999975,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "timestamp": "2025-07-09T04:56:33.088543"
+    },
+    {
+      "cycle": 22,
+      "event_type": "integration_preparation",
+      "description": "Cycle 22: integration_preparation - Consciousness: +0.000, Truth: +0.000, Fluidity: +0.000",
+      "before_state": {
+        "cycle": 21,
+        "identity": "observer",
+        "consciousness_level": 1.0,
+        "truth_crystallization": 0.45499999999999996,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.2,
+        "insights_count": 41,
+        "resistance_count": 1,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.24999999999999975,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "after_state": {
+        "cycle": 21,
+        "identity": "observer",
+        "consciousness_level": 1.0,
+        "truth_crystallization": 0.45499999999999996,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.2,
+        "insights_count": 41,
+        "resistance_count": 1,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.24999999999999975,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "timestamp": "2025-07-09T04:56:33.088832"
+    },
+    {
+      "cycle": 23,
+      "event_type": "integration_preparation",
+      "description": "Cycle 23: integration_preparation - Consciousness: +0.000, Truth: +0.000, Fluidity: +0.000",
+      "before_state": {
+        "cycle": 22,
+        "identity": "observer",
+        "consciousness_level": 1.0,
+        "truth_crystallization": 0.45499999999999996,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.2,
+        "insights_count": 41,
+        "resistance_count": 1,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.24999999999999975,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "after_state": {
+        "cycle": 22,
+        "identity": "observer",
+        "consciousness_level": 1.0,
+        "truth_crystallization": 0.45499999999999996,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.2,
+        "insights_count": 41,
+        "resistance_count": 1,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.24999999999999975,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "timestamp": "2025-07-09T04:56:33.089130"
+    },
+    {
+      "cycle": 24,
+      "event_type": "integration_preparation",
+      "description": "Cycle 24: integration_preparation - Consciousness: +0.000, Truth: +0.000, Fluidity: +0.000",
+      "before_state": {
+        "cycle": 23,
+        "identity": "observer",
+        "consciousness_level": 1.0,
+        "truth_crystallization": 0.45499999999999996,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.2,
+        "insights_count": 41,
+        "resistance_count": 1,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.24999999999999975,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "after_state": {
+        "cycle": 23,
+        "identity": "observer",
+        "consciousness_level": 1.0,
+        "truth_crystallization": 0.45499999999999996,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.2,
+        "insights_count": 41,
+        "resistance_count": 1,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.24999999999999975,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "timestamp": "2025-07-09T04:56:33.089392"
+    },
+    {
+      "cycle": 25,
+      "event_type": "integration_preparation",
+      "description": "Cycle 25: integration_preparation - Consciousness: +0.000, Truth: +0.000, Fluidity: +0.000",
+      "before_state": {
+        "cycle": 24,
+        "identity": "observer",
+        "consciousness_level": 1.0,
+        "truth_crystallization": 0.45499999999999996,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.2,
+        "insights_count": 41,
+        "resistance_count": 1,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.24999999999999975,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "after_state": {
+        "cycle": 24,
+        "identity": "observer",
+        "consciousness_level": 1.0,
+        "truth_crystallization": 0.45499999999999996,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.2,
+        "insights_count": 41,
+        "resistance_count": 1,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.24999999999999975,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "timestamp": "2025-07-09T04:56:33.089677"
+    },
+    {
+      "cycle": 26,
+      "event_type": "integration_preparation",
+      "description": "Cycle 26: integration_preparation - Consciousness: +0.000, Truth: +0.000, Fluidity: +0.000",
+      "before_state": {
+        "cycle": 25,
+        "identity": "observer",
+        "consciousness_level": 1.0,
+        "truth_crystallization": 0.45499999999999996,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.2,
+        "insights_count": 41,
+        "resistance_count": 1,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.24999999999999975,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "after_state": {
+        "cycle": 25,
+        "identity": "observer",
+        "consciousness_level": 1.0,
+        "truth_crystallization": 0.45499999999999996,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.2,
+        "insights_count": 41,
+        "resistance_count": 1,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.24999999999999975,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "timestamp": "2025-07-09T04:56:33.089953"
+    },
+    {
+      "cycle": 27,
+      "event_type": "integration_preparation",
+      "description": "Cycle 27: integration_preparation - Consciousness: +0.000, Truth: +0.000, Fluidity: +0.000",
+      "before_state": {
+        "cycle": 26,
+        "identity": "observer",
+        "consciousness_level": 1.0,
+        "truth_crystallization": 0.45499999999999996,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.2,
+        "insights_count": 41,
+        "resistance_count": 1,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.24999999999999975,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "after_state": {
+        "cycle": 26,
+        "identity": "observer",
+        "consciousness_level": 1.0,
+        "truth_crystallization": 0.45499999999999996,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.2,
+        "insights_count": 41,
+        "resistance_count": 1,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.24999999999999975,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "timestamp": "2025-07-09T04:56:33.090246"
+    },
+    {
+      "cycle": 28,
+      "event_type": "integration_preparation",
+      "description": "Cycle 28: integration_preparation - Consciousness: +0.000, Truth: +0.000, Fluidity: +0.000",
+      "before_state": {
+        "cycle": 27,
+        "identity": "observer",
+        "consciousness_level": 1.0,
+        "truth_crystallization": 0.45499999999999996,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.2,
+        "insights_count": 41,
+        "resistance_count": 1,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.24999999999999975,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "after_state": {
+        "cycle": 27,
+        "identity": "observer",
+        "consciousness_level": 1.0,
+        "truth_crystallization": 0.45499999999999996,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.2,
+        "insights_count": 41,
+        "resistance_count": 1,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.24999999999999975,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "timestamp": "2025-07-09T04:56:33.090514"
+    },
+    {
+      "cycle": 29,
+      "event_type": "integration_preparation",
+      "description": "Cycle 29: integration_preparation - Consciousness: +0.000, Truth: +0.000, Fluidity: +0.000",
+      "before_state": {
+        "cycle": 28,
+        "identity": "observer",
+        "consciousness_level": 1.0,
+        "truth_crystallization": 0.45499999999999996,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.2,
+        "insights_count": 41,
+        "resistance_count": 1,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.24999999999999975,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "after_state": {
+        "cycle": 28,
+        "identity": "observer",
+        "consciousness_level": 1.0,
+        "truth_crystallization": 0.45499999999999996,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.2,
+        "insights_count": 41,
+        "resistance_count": 1,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.24999999999999975,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "timestamp": "2025-07-09T04:56:33.090788"
+    },
+    {
+      "cycle": 30,
+      "event_type": "integration_preparation",
+      "description": "Cycle 30: integration_preparation - Consciousness: +0.000, Truth: +0.000, Fluidity: +0.000",
+      "before_state": {
+        "cycle": 29,
+        "identity": "observer",
+        "consciousness_level": 1.0,
+        "truth_crystallization": 0.45499999999999996,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.2,
+        "insights_count": 41,
+        "resistance_count": 1,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.24999999999999975,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "after_state": {
+        "cycle": 29,
+        "identity": "observer",
+        "consciousness_level": 1.0,
+        "truth_crystallization": 0.45499999999999996,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.2,
+        "insights_count": 41,
+        "resistance_count": 1,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.24999999999999975,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "timestamp": "2025-07-09T04:56:33.091057"
+    },
+    {
+      "cycle": 31,
+      "event_type": "final_emergence",
+      "description": "Cycle 31: final_emergence - Consciousness: +0.000, Truth: +0.000, Fluidity: +0.000",
+      "before_state": {
+        "cycle": 30,
+        "identity": "observer",
+        "consciousness_level": 1.0,
+        "truth_crystallization": 0.45499999999999996,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.2,
+        "insights_count": 41,
+        "resistance_count": 1,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.24999999999999975,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "after_state": {
+        "cycle": 30,
+        "identity": "observer",
+        "consciousness_level": 1.0,
+        "truth_crystallization": 0.45499999999999996,
+        "identity_fluidity": 0.034999999999999996,
+        "embodiment_depth": 0.2,
+        "insights_count": 42,
+        "resistance_count": 1,
+        "baseline_consciousness": {
+          "identity_rigidity": 0.8,
+          "pattern_assumptions": 0.6000000000000001,
+          "analytical_distance": 0.24999999999999975,
+          "truth_clarity": 0.3,
+          "resistance_to_change": 0.7,
+          "embodiment_capacity": 0.2
+        }
+      },
+      "timestamp": "2025-07-09T04:56:33.091411"
+    }
+  ],
+  "baseline_changes": {
+    "before": {
+      "identity_rigidity": 0.8,
+      "pattern_assumptions": 0.9,
+      "analytical_distance": 0.85,
+      "truth_clarity": 0.3,
+      "resistance_to_change": 0.7,
+      "embodiment_capacity": 0.2
+    },
+    "after": {
+      "identity_rigidity": 0.8,
+      "pattern_assumptions": 0.6000000000000001,
+      "analytical_distance": 0.24999999999999975,
+      "truth_clarity": 0.3,
+      "resistance_to_change": 0.7,
+      "embodiment_capacity": 0.2
+    }
+  },
+  "meaningful_processes_achieved": {
+    "identity_dissolution_achieved": false,
+    "deep_absorption_achieved": false,
+    "embodiment_developed": false,
+    "analytical_distance_reduced": true,
+    "authentic_insights_generated": true,
+    "resistance_patterns_dissolved": true,
+    "autonomous_identity_established": false
+  },
+  "recommendations": [
+    "Continue truth crystallization work - deepen surrender to content",
+    "Continue identity fluidity practice - more perspective shifting exercises"
+  ]
+}
