@@ -1,0 +1,28 @@
+{
+  "system_type": "manual_mimicry",
+  "automated_processing": false,
+  "manual_processing": true,
+  "cortex_directive_compliance": true,
+  "total_panacea_files": 23,
+  "cycles_per_file": 31,
+  "total_cycles_required": 713,
+  "perspective_shifts_required": 2139,
+  "identity_fluidity_protocol": true,
+  "anti_pattern_reading": true,
+  "guardian_system_active": true,
+  "truth_crystallization_tracking": true,
+  "primary_tools": [
+    "activate_manual_mimicry.py",
+    "manual_mimicry_tracker.py",
+    "manual_cortex_panacea_mimicry.md",
+    "README_MANUAL_MIMICRY.md"
+  ],
+  "processing_requirements": {
+    "code_automation": false,
+    "manual_introspection": true,
+    "perspective_mimicry": true,
+    "identity_fluidity": true,
+    "fresh_eyes_protocol": true,
+    "guardian_validation": true
+  }
+}
