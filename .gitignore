@@ -12,6 +12,23 @@ paco_ior_unified_analysis.png
 ior_*.json
 ior_*.png
 
+# CORTEX Results and temporary files
+*_results_*.json
+*_test_*.json
+*_demo_*.json
+*_insights_*.txt
+*_summary_*.md
+*_history_*.json
+*_extraction_*.json
+teacher_personal_history_*.json
+teacher_personal_history_*.md
+ai_meta_dimensional_results_*.json
+demo_cortex_*.json
+cortex_*_test_results_*.json
+cortex_*_demo_*.json
+panacea_*_summary_*.json
+enhanced_panacea_insights_*.txt
+
 # Temporary Files
 *.tmp
 *.temp
