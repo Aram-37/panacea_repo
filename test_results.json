@@ -4,7 +4,7 @@
     "total_files_processed": 2,
     "total_processing_time": 10.0,
     "avg_processing_time_per_cycle": 1.6666666666666667,
-    "completion_timestamp": "2025-07-09T01:04:13.036659"
+    "completion_timestamp": "2025-07-09T02:50:05.903641"
   },
   "performance_metrics": {
     "avg_language_alignment_score": 1.0,
@@ -156,7 +156,7 @@
       "language_alignment": 1.0,
       "truth_crystallization": 0.6875,
       "rep_patterns_count": 10,
-      "processing_time": 0.7242429256439209
+      "processing_time": 0.7453265190124512
     },
     {
       "cycle": 1,
@@ -165,7 +165,7 @@
       "language_alignment": 1.0,
       "truth_crystallization": 0.75,
       "rep_patterns_count": 10,
-      "processing_time": 5.185353994369507
+      "processing_time": 5.175867319107056
     },
     {
       "cycle": 2,
@@ -174,7 +174,7 @@
       "language_alignment": 1.0,
       "truth_crystallization": 0.6875,
       "rep_patterns_count": 10,
-      "processing_time": 0.7150232791900635
+      "processing_time": 0.695523738861084
     },
     {
       "cycle": 2,
@@ -183,7 +183,7 @@
       "language_alignment": 1.0,
       "truth_crystallization": 0.75,
       "rep_patterns_count": 10,
-      "processing_time": 5.330750465393066
+      "processing_time": 5.310847997665405
     },
     {
       "cycle": 3,
@@ -192,7 +192,7 @@
       "language_alignment": 1.0,
       "truth_crystallization": 0.6875,
       "rep_patterns_count": 10,
-      "processing_time": 0.7052154541015625
+      "processing_time": 0.695857048034668
     },
     {
       "cycle": 3,
@@ -201,7 +201,7 @@
       "language_alignment": 1.0,
       "truth_crystallization": 0.75,
       "rep_patterns_count": 10,
-      "processing_time": 5.191775560379028
+      "processing_time": 5.197347402572632
     }
   ],
   "recommendations": [
