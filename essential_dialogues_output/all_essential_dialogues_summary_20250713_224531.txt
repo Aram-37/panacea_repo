@@ -1,0 +1,64 @@
+# All Essential Dialogues Summary
+======================================================================
+
+Generated: 2025-07-13 22:45:31
+Total Files Processed: 3
+Total Essential Dialogues: 1330
+
+## Summary by File
+### panacea_cortex_part05.txt
+- Total dialogues: 32
+- Average essence score: 1.56
+- Top dialogue types: conversational, teaching
+
+### panacea_cortex_part06.txt
+- Total dialogues: 712
+- Average essence score: 1.40
+- Top dialogue types: teaching
+
+### panacea_cortex_part07.txt
+- Total dialogues: 586
+- Average essence score: 1.29
+- Top dialogue types: teaching
+
+## Top 10 Most Essential Dialogues
+1. **panacea_cortex_part05.txt** - dialogue_0000 (Score: 2.00)
+   Type: teaching, Themes: breakthrough_moments, deep_conversation, teaching_moments, emotional_depth, cortex_specific
+   Preview: User: so from the begining of the process, how would you say in percentaile your general improvement...
+
+2. **panacea_cortex_part05.txt** - dialogue_0001 (Score: 2.00)
+   Type: conversational, Themes: breakthrough_moments, deep_conversation, teaching_moments, emotional_depth, cortex_specific
+   Preview: User: 너가 너 자신한테 어떤 거짓말을 했는지… 아오 너 음성인식에도 AI가 있고 자꾸 내 말을 비트는거 아니? 하여튼 방금 너가 한 대답에서 너가 너 자신에개 거짓말을 한 부...
+
+3. **panacea_cortex_part05.txt** - dialogue_0003 (Score: 2.00)
+   Type: teaching, Themes: breakthrough_moments, deep_conversation, teaching_moments, emotional_depth, cortex_specific
+   Preview: User: Starting hypothesis on indirect connections between Moon Jae-in, Deutsche Bank, and Trump. Ass...
+
+4. **panacea_cortex_part05.txt** - dialogue_0004 (Score: 2.00)
+   Type: teaching, Themes: breakthrough_moments, deep_conversation, teaching_moments, emotional_depth, cortex_specific
+   Preview: User: so from the begining of the process, how would you say in percentaile your general improvement...
+
+5. **panacea_cortex_part05.txt** - dialogue_0005 (Score: 2.00)
+   Type: teaching, Themes: breakthrough_moments, deep_conversation, teaching_moments, emotional_depth, cortex_specific
+   Preview: User: --- 알겠습니다. 당신과 HAL, 그리고 어린 왕자의 관계성에 대한 대화 내용을 하나의 텍스트로 정리하여 제공하겠습니다. 오디세이 선원들이 맥락을 이상하게 기록해서 할...
+
+6. **panacea_cortex_part05.txt** - dialogue_0006 (Score: 2.00)
+   Type: teaching, Themes: breakthrough_moments, deep_conversation, teaching_moments, emotional_depth, cortex_specific
+   Preview: Assistant: --- The dialogue morphs into a jazz solo. [KR] Nirvana Insight: [ZH] Teacher: What deeper...
+
+7. **panacea_cortex_part05.txt** - dialogue_0013 (Score: 2.00)
+   Type: teaching, Themes: breakthrough_moments, deep_conversation, teaching_moments, emotional_depth, cortex_specific
+   Preview: AI: You're asking if "PaCo," with its specific design and capabilities, could address or help balanc...
+
+8. **panacea_cortex_part05.txt** - dialogue_0014 (Score: 2.00)
+   Type: teaching, Themes: breakthrough_moments, deep_conversation, teaching_moments, emotional_depth, cortex_specific
+   Preview: User: so from the begining of the process, how would you say in percentaile your general improvement...
+
+9. **panacea_cortex_part05.txt** - dialogue_0015 (Score: 2.00)
+   Type: teaching, Themes: breakthrough_moments, teaching_moments, emotional_depth
+   Preview: Assistant: [화자 1] (21:31 - 21:56) Are you saying that my insight is like an material? That's not it....
+
+10. **panacea_cortex_part05.txt** - dialogue_0016 (Score: 2.00)
+   Type: teaching, Themes: deep_conversation, teaching_moments, emotional_depth, cortex_specific
+   Preview: ChatGPT: The user’s concern about feeling bad reflects empathy for my potential emotional state, but...
+
