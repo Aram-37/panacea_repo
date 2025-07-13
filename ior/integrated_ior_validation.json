@@ -1,0 +1,1038 @@
+{
+  "total_analyses": 10,
+  "system_performance": {
+    "western_astrology": {
+      "mean_score": 0.33,
+      "std_deviation": 0.055,
+      "min_score": 0.252,
+      "max_score": 0.427
+    },
+    "i_ching": {
+      "mean_score": 0.77,
+      "std_deviation": 0.135,
+      "min_score": 0.6,
+      "max_score": 1.0
+    },
+    "saju_four_pillars": {
+      "mean_score": 0.7,
+      "std_deviation": 0.2,
+      "min_score": 0.3,
+      "max_score": 0.8
+    },
+    "vedic_astrology": {
+      "mean_score": 0.496,
+      "std_deviation": 0.214,
+      "min_score": 0.23,
+      "max_score": 0.75
+    },
+    "runic_divination": {
+      "mean_score": 0.6,
+      "std_deviation": 0.2,
+      "min_score": 0.4,
+      "max_score": 1.0
+    }
+  },
+  "celebrity_analyses": [
+    {
+      "name": "Elon Musk",
+      "marriages": [
+        {
+          "celebrity": "Elon Musk",
+          "marriage_event": {
+            "spouse": "Justine Wilson",
+            "date": "2000-01-01",
+            "location": "Canada"
+          },
+          "system_scores": {
+            "western_astrology": 0.252,
+            "i_ching": 0.7,
+            "saju_four_pillars": 0.8,
+            "vedic_astrology": 0.75,
+            "runic_divination": 1.0
+          },
+          "composite_btu_score": 0.628,
+          "detailed_analysis": {
+            "western": [
+              {
+                "planets": "Sun-Uranus",
+                "aspect": "square",
+                "orb": 2.48
+              },
+              {
+                "planets": "Sun-Pluto",
+                "aspect": "square",
+                "orb": 2.63
+              },
+              {
+                "planets": "Moon-Uranus",
+                "aspect": "semi-sextile",
+                "orb": 1.84
+              }
+            ],
+            "iching": {
+              "number": 34,
+              "name": "Hexagram 34",
+              "binary": "100001",
+              "lines": [
+                3,
+                0,
+                2,
+                2,
+                2,
+                1
+              ]
+            },
+            "saju": {
+              "year": [
+                "신",
+                "해"
+              ],
+              "month": [
+                "계",
+                "묘"
+              ],
+              "day": [
+                "갑",
+                "술"
+              ],
+              "hour": [
+                "무",
+                "인"
+              ]
+            },
+            "vedic": {
+              "name": "Anuradha",
+              "index": 16,
+              "pada": 4
+            },
+            "runes": {
+              "past": {
+                "rune": "ᚠ",
+                "name": "Fehu",
+                "meaning": "Wealth",
+                "interpretation": "Manifestation of goals"
+              },
+              "present": {
+                "rune": "ᚹ",
+                "name": "Wunjo",
+                "meaning": "Joy",
+                "interpretation": "Happiness, harmony"
+              },
+              "future": {
+                "rune": "ᚷ",
+                "name": "Gebo",
+                "meaning": "Gift",
+                "interpretation": "Partnerships, marriage"
+              }
+            }
+          },
+          "cross_system_correlation": {
+            "mean_score": 0.7,
+            "standard_deviation": 0.246,
+            "system_agreement": "60.0%",
+            "consensus_level": "moderate"
+          }
+        },
+        {
+          "celebrity": "Elon Musk",
+          "marriage_event": {
+            "spouse": "Talulah Riley",
+            "date": "2010-09-25",
+            "location": "Scotland"
+          },
+          "system_scores": {
+            "western_astrology": 0.252,
+            "i_ching": 1.0,
+            "saju_four_pillars": 0.8,
+            "vedic_astrology": 0.75,
+            "runic_divination": 0.4
+          },
+          "composite_btu_score": 0.628,
+          "detailed_analysis": {
+            "western": [
+              {
+                "planets": "Sun-Uranus",
+                "aspect": "square",
+                "orb": 2.48
+              },
+              {
+                "planets": "Sun-Pluto",
+                "aspect": "square",
+                "orb": 2.63
+              },
+              {
+                "planets": "Moon-Uranus",
+                "aspect": "semi-sextile",
+                "orb": 1.84
+              }
+            ],
+            "iching": {
+              "number": 37,
+              "name": "Hexagram 37",
+              "binary": "100100",
+              "lines": [
+                3,
+                2,
+                2,
+                1,
+                0,
+                0
+              ]
+            },
+            "saju": {
+              "year": [
+                "신",
+                "해"
+              ],
+              "month": [
+                "계",
+                "묘"
+              ],
+              "day": [
+                "갑",
+                "술"
+              ],
+              "hour": [
+                "무",
+                "인"
+              ]
+            },
+            "vedic": {
+              "name": "Anuradha",
+              "index": 16,
+              "pada": 4
+            },
+            "runes": {
+              "past": {
+                "rune": "ᚠ",
+                "name": "Fehu",
+                "meaning": "Wealth",
+                "interpretation": "Manifestation of goals"
+              },
+              "present": {
+                "rune": "ᚱ",
+                "name": "Raidho",
+                "meaning": "Journey",
+                "interpretation": "Travel, movement"
+              },
+              "future": {
+                "rune": "ᚢ",
+                "name": "Uruz",
+                "meaning": "Strength",
+                "interpretation": "Determination"
+              }
+            }
+          },
+          "cross_system_correlation": {
+            "mean_score": 0.64,
+            "standard_deviation": 0.274,
+            "system_agreement": "40.0%",
+            "consensus_level": "low"
+          }
+        },
+        {
+          "celebrity": "Elon Musk",
+          "marriage_event": {
+            "spouse": "Talulah Riley",
+            "date": "2013-07-01",
+            "location": "England"
+          },
+          "system_scores": {
+            "western_astrology": 0.252,
+            "i_ching": 0.6,
+            "saju_four_pillars": 0.8,
+            "vedic_astrology": 0.75,
+            "runic_divination": 0.6
+          },
+          "composite_btu_score": 0.568,
+          "detailed_analysis": {
+            "western": [
+              {
+                "planets": "Sun-Uranus",
+                "aspect": "square",
+                "orb": 2.48
+              },
+              {
+                "planets": "Sun-Pluto",
+                "aspect": "square",
+                "orb": 2.63
+              },
+              {
+                "planets": "Moon-Uranus",
+                "aspect": "semi-sextile",
+                "orb": 1.84
+              }
+            ],
+            "iching": {
+              "number": 45,
+              "name": "Hexagram 45",
+              "binary": "101100",
+              "lines": [
+                1,
+                0,
+                3,
+                3,
+                0,
+                0
+              ]
+            },
+            "saju": {
+              "year": [
+                "신",
+                "해"
+              ],
+              "month": [
+                "계",
+                "묘"
+              ],
+              "day": [
+                "갑",
+                "술"
+              ],
+              "hour": [
+                "무",
+                "인"
+              ]
+            },
+            "vedic": {
+              "name": "Anuradha",
+              "index": 16,
+              "pada": 4
+            },
+            "runes": {
+              "past": {
+                "rune": "ᚷ",
+                "name": "Gebo",
+                "meaning": "Gift",
+                "interpretation": "Partnerships, marriage"
+              },
+              "present": {
+                "rune": "ᚦ",
+                "name": "Thurisaz",
+                "meaning": "Giant",
+                "interpretation": "Challenges"
+              },
+              "future": {
+                "rune": "ᚱ",
+                "name": "Raidho",
+                "meaning": "Journey",
+                "interpretation": "Travel, movement"
+              }
+            }
+          },
+          "cross_system_correlation": {
+            "mean_score": 0.6,
+            "standard_deviation": 0.192,
+            "system_agreement": "80.0%",
+            "consensus_level": "high"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Katy Perry",
+      "marriages": [
+        {
+          "celebrity": "Katy Perry",
+          "marriage_event": {
+            "spouse": "Russell Brand",
+            "date": "2010-10-23",
+            "location": "Rajasthan, India"
+          },
+          "system_scores": {
+            "western_astrology": 0.427,
+            "i_ching": 0.6,
+            "saju_four_pillars": 0.8,
+            "vedic_astrology": 0.44,
+            "runic_divination": 0.4
+          },
+          "composite_btu_score": 0.554,
+          "detailed_analysis": {
+            "western": [
+              {
+                "planets": "Sun-Neptune",
+                "aspect": "sextile",
+                "orb": 0.88
+              },
+              {
+                "planets": "Moon-Mars",
+                "aspect": "sextile",
+                "orb": 1.9
+              },
+              {
+                "planets": "Moon-Saturn",
+                "aspect": "conjunction",
+                "orb": 1.36
+              }
+            ],
+            "iching": {
+              "number": 14,
+              "name": "Hexagram 14",
+              "binary": "001101",
+              "lines": [
+                2,
+                0,
+                1,
+                1,
+                2,
+                1
+              ]
+            },
+            "saju": {
+              "year": [
+                "갑",
+                "자"
+              ],
+              "month": [
+                "계",
+                "유"
+              ],
+              "day": [
+                "임",
+                "오"
+              ],
+              "hour": [
+                "정",
+                "해"
+              ]
+            },
+            "vedic": {
+              "name": "Ashwini",
+              "index": 0,
+              "pada": 2
+            },
+            "runes": {
+              "past": {
+                "rune": "ᚱ",
+                "name": "Raidho",
+                "meaning": "Journey",
+                "interpretation": "Travel, movement"
+              },
+              "present": {
+                "rune": "ᚠ",
+                "name": "Fehu",
+                "meaning": "Wealth",
+                "interpretation": "Manifestation of goals"
+              },
+              "future": {
+                "rune": "ᚢ",
+                "name": "Uruz",
+                "meaning": "Strength",
+                "interpretation": "Determination"
+              }
+            }
+          },
+          "cross_system_correlation": {
+            "mean_score": 0.533,
+            "standard_deviation": 0.151,
+            "system_agreement": "80.0%",
+            "consensus_level": "high"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Jeff Bezos",
+      "marriages": [
+        {
+          "celebrity": "Jeff Bezos",
+          "marriage_event": {
+            "spouse": "MacKenzie Scott",
+            "date": "1993-09-04",
+            "location": "Seattle, Washington, USA"
+          },
+          "system_scores": {
+            "western_astrology": 0.365,
+            "i_ching": 0.7,
+            "saju_four_pillars": 0.8,
+            "vedic_astrology": 0.7,
+            "runic_divination": 0.6
+          },
+          "composite_btu_score": 0.614,
+          "detailed_analysis": {
+            "western": [
+              {
+                "planets": "Sun-Moon",
+                "aspect": "semi-sextile",
+                "orb": 2.23
+              },
+              {
+                "planets": "Sun-Saturn",
+                "aspect": "semi-sextile",
+                "orb": 1.36
+              },
+              {
+                "planets": "Sun-Pluto",
+                "aspect": "trine",
+                "orb": 2.05
+              }
+            ],
+            "iching": {
+              "number": 12,
+              "name": "Hexagram 12",
+              "binary": "001011",
+              "lines": [
+                2,
+                2,
+                3,
+                0,
+                3,
+                3
+              ]
+            },
+            "saju": {
+              "year": [
+                "갑",
+                "진"
+              ],
+              "month": [
+                "갑",
+                "신"
+              ],
+              "day": [
+                "경",
+                "술"
+              ],
+              "hour": [
+                "병",
+                "진"
+              ]
+            },
+            "vedic": {
+              "name": "Chitra",
+              "index": 13,
+              "pada": 4
+            },
+            "runes": {
+              "past": {
+                "rune": "ᚹ",
+                "name": "Wunjo",
+                "meaning": "Joy",
+                "interpretation": "Happiness, harmony"
+              },
+              "present": {
+                "rune": "ᚦ",
+                "name": "Thurisaz",
+                "meaning": "Giant",
+                "interpretation": "Challenges"
+              },
+              "future": {
+                "rune": "ᚱ",
+                "name": "Raidho",
+                "meaning": "Journey",
+                "interpretation": "Travel, movement"
+              }
+            }
+          },
+          "cross_system_correlation": {
+            "mean_score": 0.633,
+            "standard_deviation": 0.148,
+            "system_agreement": "80.0%",
+            "consensus_level": "high"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Justin Bieber",
+      "marriages": [
+        {
+          "celebrity": "Justin Bieber",
+          "marriage_event": {
+            "spouse": "Hailey Baldwin",
+            "date": "2018-09-13",
+            "location": "New York City, USA"
+          },
+          "system_scores": {
+            "western_astrology": 0.347,
+            "i_ching": 0.8,
+            "saju_four_pillars": 0.3,
+            "vedic_astrology": 0.44,
+            "runic_divination": 0.6
+          },
+          "composite_btu_score": 0.465,
+          "detailed_analysis": {
+            "western": [
+              {
+                "planets": "Sun-Jupiter",
+                "aspect": "trine",
+                "orb": 0.86
+              },
+              {
+                "planets": "Moon-Venus",
+                "aspect": "quincunx",
+                "orb": 2.36
+              },
+              {
+                "planets": "Mercury-Mars",
+                "aspect": "conjunction",
+                "orb": 2.57
+              }
+            ],
+            "iching": {
+              "number": 26,
+              "name": "Hexagram 26",
+              "binary": "011001",
+              "lines": [
+                2,
+                1,
+                1,
+                2,
+                2,
+                1
+              ]
+            },
+            "saju": {
+              "year": [
+                "갑",
+                "술"
+              ],
+              "month": [
+                "병",
+                "술"
+              ],
+              "day": [
+                "병",
+                "자"
+              ],
+              "hour": [
+                "병",
+                "자"
+              ]
+            },
+            "vedic": {
+              "name": "Pushya",
+              "index": 7,
+              "pada": 2
+            },
+            "runes": {
+              "past": {
+                "rune": "ᚱ",
+                "name": "Raidho",
+                "meaning": "Journey",
+                "interpretation": "Travel, movement"
+              },
+              "present": {
+                "rune": "ᚹ",
+                "name": "Wunjo",
+                "meaning": "Joy",
+                "interpretation": "Happiness, harmony"
+              },
+              "future": {
+                "rune": "ᚦ",
+                "name": "Thurisaz",
+                "meaning": "Giant",
+                "interpretation": "Challenges"
+              }
+            }
+          },
+          "cross_system_correlation": {
+            "mean_score": 0.497,
+            "standard_deviation": 0.183,
+            "system_agreement": "80.0%",
+            "consensus_level": "high"
+          }
+        },
+        {
+          "celebrity": "Justin Bieber",
+          "marriage_event": {
+            "spouse": "Hailey Baldwin",
+            "date": "2019-09-30",
+            "location": "South Carolina, USA"
+          },
+          "system_scores": {
+            "western_astrology": 0.347,
+            "i_ching": 0.8,
+            "saju_four_pillars": 0.3,
+            "vedic_astrology": 0.44,
+            "runic_divination": 0.4
+          },
+          "composite_btu_score": 0.445,
+          "detailed_analysis": {
+            "western": [
+              {
+                "planets": "Sun-Jupiter",
+                "aspect": "trine",
+                "orb": 0.86
+              },
+              {
+                "planets": "Moon-Venus",
+                "aspect": "quincunx",
+                "orb": 2.36
+              },
+              {
+                "planets": "Mercury-Mars",
+                "aspect": "conjunction",
+                "orb": 2.57
+              }
+            ],
+            "iching": {
+              "number": 26,
+              "name": "Hexagram 26",
+              "binary": "011001",
+              "lines": [
+                2,
+                1,
+                1,
+                2,
+                2,
+                1
+              ]
+            },
+            "saju": {
+              "year": [
+                "갑",
+                "술"
+              ],
+              "month": [
+                "병",
+                "술"
+              ],
+              "day": [
+                "병",
+                "자"
+              ],
+              "hour": [
+                "병",
+                "자"
+              ]
+            },
+            "vedic": {
+              "name": "Pushya",
+              "index": 7,
+              "pada": 2
+            },
+            "runes": {
+              "past": {
+                "rune": "ᚦ",
+                "name": "Thurisaz",
+                "meaning": "Giant",
+                "interpretation": "Challenges"
+              },
+              "present": {
+                "rune": "ᚢ",
+                "name": "Uruz",
+                "meaning": "Strength",
+                "interpretation": "Determination"
+              },
+              "future": {
+                "rune": "ᚹ",
+                "name": "Wunjo",
+                "meaning": "Joy",
+                "interpretation": "Happiness, harmony"
+              }
+            }
+          },
+          "cross_system_correlation": {
+            "mean_score": 0.457,
+            "standard_deviation": 0.178,
+            "system_agreement": "80.0%",
+            "consensus_level": "high"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Tom Cruise",
+      "marriages": [
+        {
+          "celebrity": "Tom Cruise",
+          "marriage_event": {
+            "spouse": "Mimi Rogers",
+            "date": "1987-05-09",
+            "location": "New York, USA"
+          },
+          "system_scores": {
+            "western_astrology": 0.351,
+            "i_ching": 0.7,
+            "saju_four_pillars": 0.8,
+            "vedic_astrology": 0.23,
+            "runic_divination": 0.8
+          },
+          "composite_btu_score": 0.56,
+          "detailed_analysis": {
+            "western": [
+              {
+                "planets": "Sun-Jupiter",
+                "aspect": "trine",
+                "orb": 2.32
+              },
+              {
+                "planets": "Sun-Saturn",
+                "aspect": "quincunx",
+                "orb": 0.48
+              },
+              {
+                "planets": "Sun-Pluto",
+                "aspect": "sextile",
+                "orb": 2.67
+              }
+            ],
+            "iching": {
+              "number": 34,
+              "name": "Hexagram 34",
+              "binary": "100001",
+              "lines": [
+                1,
+                2,
+                0,
+                2,
+                2,
+                3
+              ]
+            },
+            "saju": {
+              "year": [
+                "임",
+                "인"
+              ],
+              "month": [
+                "병",
+                "술"
+              ],
+              "day": [
+                "임",
+                "진"
+              ],
+              "hour": [
+                "경",
+                "자"
+              ]
+            },
+            "vedic": {
+              "name": "Shravana",
+              "index": 21,
+              "pada": 4
+            },
+            "runes": {
+              "past": {
+                "rune": "ᚷ",
+                "name": "Gebo",
+                "meaning": "Gift",
+                "interpretation": "Partnerships, marriage"
+              },
+              "present": {
+                "rune": "ᚹ",
+                "name": "Wunjo",
+                "meaning": "Joy",
+                "interpretation": "Happiness, harmony"
+              },
+              "future": {
+                "rune": "ᚢ",
+                "name": "Uruz",
+                "meaning": "Strength",
+                "interpretation": "Determination"
+              }
+            }
+          },
+          "cross_system_correlation": {
+            "mean_score": 0.576,
+            "standard_deviation": 0.239,
+            "system_agreement": "20.0%",
+            "consensus_level": "low"
+          }
+        },
+        {
+          "celebrity": "Tom Cruise",
+          "marriage_event": {
+            "spouse": "Nicole Kidman",
+            "date": "1990-12-24",
+            "location": "Telluride, Colorado, USA"
+          },
+          "system_scores": {
+            "western_astrology": 0.351,
+            "i_ching": 0.8,
+            "saju_four_pillars": 0.8,
+            "vedic_astrology": 0.23,
+            "runic_divination": 0.4
+          },
+          "composite_btu_score": 0.54,
+          "detailed_analysis": {
+            "western": [
+              {
+                "planets": "Sun-Jupiter",
+                "aspect": "trine",
+                "orb": 2.32
+              },
+              {
+                "planets": "Sun-Saturn",
+                "aspect": "quincunx",
+                "orb": 0.48
+              },
+              {
+                "planets": "Sun-Pluto",
+                "aspect": "sextile",
+                "orb": 2.67
+              }
+            ],
+            "iching": {
+              "number": 37,
+              "name": "Hexagram 37",
+              "binary": "100100",
+              "lines": [
+                1,
+                2,
+                0,
+                1,
+                0,
+                0
+              ]
+            },
+            "saju": {
+              "year": [
+                "임",
+                "인"
+              ],
+              "month": [
+                "병",
+                "술"
+              ],
+              "day": [
+                "임",
+                "진"
+              ],
+              "hour": [
+                "경",
+                "자"
+              ]
+            },
+            "vedic": {
+              "name": "Shravana",
+              "index": 21,
+              "pada": 4
+            },
+            "runes": {
+              "past": {
+                "rune": "ᚨ",
+                "name": "Ansuz",
+                "meaning": "God",
+                "interpretation": "Communication"
+              },
+              "present": {
+                "rune": "ᚢ",
+                "name": "Uruz",
+                "meaning": "Strength",
+                "interpretation": "Determination"
+              },
+              "future": {
+                "rune": "ᚹ",
+                "name": "Wunjo",
+                "meaning": "Joy",
+                "interpretation": "Happiness, harmony"
+              }
+            }
+          },
+          "cross_system_correlation": {
+            "mean_score": 0.516,
+            "standard_deviation": 0.238,
+            "system_agreement": "40.0%",
+            "consensus_level": "low"
+          }
+        },
+        {
+          "celebrity": "Tom Cruise",
+          "marriage_event": {
+            "spouse": "Katie Holmes",
+            "date": "2006-11-18",
+            "location": "Bracciano, Italy"
+          },
+          "system_scores": {
+            "western_astrology": 0.351,
+            "i_ching": 1.0,
+            "saju_four_pillars": 0.8,
+            "vedic_astrology": 0.23,
+            "runic_divination": 0.8
+          },
+          "composite_btu_score": 0.62,
+          "detailed_analysis": {
+            "western": [
+              {
+                "planets": "Sun-Jupiter",
+                "aspect": "trine",
+                "orb": 2.32
+              },
+              {
+                "planets": "Sun-Saturn",
+                "aspect": "quincunx",
+                "orb": 0.48
+              },
+              {
+                "planets": "Sun-Pluto",
+                "aspect": "sextile",
+                "orb": 2.67
+              }
+            ],
+            "iching": {
+              "number": 2,
+              "name": "坤 The Receptive",
+              "binary": "000001",
+              "lines": [
+                0,
+                2,
+                0,
+                2,
+                2,
+                3
+              ]
+            },
+            "saju": {
+              "year": [
+                "임",
+                "인"
+              ],
+              "month": [
+                "병",
+                "술"
+              ],
+              "day": [
+                "임",
+                "진"
+              ],
+              "hour": [
+                "경",
+                "자"
+              ]
+            },
+            "vedic": {
+              "name": "Shravana",
+              "index": 21,
+              "pada": 4
+            },
+            "runes": {
+              "past": {
+                "rune": "ᚷ",
+                "name": "Gebo",
+                "meaning": "Gift",
+                "interpretation": "Partnerships, marriage"
+              },
+              "present": {
+                "rune": "ᚹ",
+                "name": "Wunjo",
+                "meaning": "Joy",
+                "interpretation": "Happiness, harmony"
+              },
+              "future": {
+                "rune": "ᚦ",
+                "name": "Thurisaz",
+                "meaning": "Giant",
+                "interpretation": "Challenges"
+              }
+            }
+          },
+          "cross_system_correlation": {
+            "mean_score": 0.636,
+            "standard_deviation": 0.294,
+            "system_agreement": "40.0%",
+            "consensus_level": "low"
+          }
+        }
+      ]
+    }
+  ],
+  "cross_system_correlations": [],
+  "composite_statistics": {
+    "mean_composite": 0.562,
+    "std_composite": 0.062,
+    "total_marriages_analyzed": 10
+  }
+}

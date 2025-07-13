@@ -1,0 +1,27 @@
+{
+  "efficiency": {
+    "integration_mode": "hybrid",
+    "efficiency_target": 0.9,
+    "automation_assistance_threshold": 0.6,
+    "manual_insight_requirement_threshold": 0.7,
+    "obstacle_resolution_priority": true,
+    "continuous_learning_enabled": true,
+    "rep_pattern_enhancement": true,
+    "guardian_system_integration": true
+  },
+  "mimicry": {
+    "external_mimicry_weight": 0.5,
+    "pattern_selection_sensitivity": 0.6,
+    "truth_emergence_priority": 0.8,
+    "cognitive_load_limit": 0.8,
+    "breakthrough_threshold": 0.7,
+    "session_timeout_minutes": 30
+  },
+  "processing": {
+    "parallel_processing_threads": 4,
+    "cycle_limit_per_file": 31,
+    "perspective_rotation_enabled": true,
+    "fresh_perspective_mandate": true,
+    "pattern_assumption_prohibition_cycles": 30
+  }
+}

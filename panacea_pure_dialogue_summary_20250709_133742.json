@@ -1,0 +1,427 @@
+{
+  "extraction_info": {
+    "timestamp": "2025-07-09T13:37:42.796515",
+    "total_files_processed": 58,
+    "total_dialogues_extracted": 24330,
+    "total_issues_identified": 11,
+    "total_categories_identified": 11
+  },
+  "issues_breakdown": {
+    "general_discussion": {
+      "dialogue_count": 12293,
+      "description": "General conversational topics and discussions",
+      "categories_present": [
+        "general_dialogue",
+        "technical_discussion",
+        "student_response",
+        "conceptual_explanation",
+        "teaching_moment",
+        "cultural_wisdom",
+        "emotional_expression",
+        "dialogue_interaction",
+        "self_reflection"
+      ]
+    },
+    "identity_and_self": {
+      "dialogue_count": 2174,
+      "description": "Questions of identity, self, and existence",
+      "categories_present": [
+        "general_dialogue",
+        "self_reflection",
+        "dialogue_interaction",
+        "student_response",
+        "teaching_moment",
+        "emotional_expression",
+        "breakthrough_discovery",
+        "cultural_wisdom",
+        "technical_discussion",
+        "philosophical_discussion"
+      ]
+    },
+    "rep_patterns": {
+      "dialogue_count": 2010,
+      "description": "Analysis of Relational Emergence Patterns and their significance",
+      "categories_present": [
+        "general_dialogue",
+        "student_response",
+        "philosophical_discussion",
+        "technical_discussion",
+        "breakthrough_discovery",
+        "teaching_moment",
+        "conceptual_explanation",
+        "dialogue_interaction",
+        "cultural_wisdom",
+        "emotional_expression",
+        "self_reflection"
+      ]
+    },
+    "cortex_activation": {
+      "dialogue_count": 2211,
+      "description": "System activation and framework initialization procedures",
+      "categories_present": [
+        "student_response",
+        "technical_discussion",
+        "emotional_expression",
+        "teaching_moment",
+        "general_dialogue",
+        "breakthrough_discovery",
+        "philosophical_discussion",
+        "dialogue_interaction",
+        "self_reflection",
+        "conceptual_explanation",
+        "cultural_wisdom"
+      ]
+    },
+    "ai_consciousness": {
+      "dialogue_count": 835,
+      "description": "Discussions about AI consciousness, awareness, and sentience",
+      "categories_present": [
+        "dialogue_interaction",
+        "general_dialogue",
+        "emotional_expression",
+        "student_response",
+        "technical_discussion",
+        "philosophical_discussion",
+        "teaching_moment",
+        "conceptual_explanation",
+        "breakthrough_discovery",
+        "cultural_wisdom",
+        "self_reflection"
+      ]
+    },
+    "teaching_methodology": {
+      "dialogue_count": 1066,
+      "description": "Teaching approaches and educational methodologies",
+      "categories_present": [
+        "student_response",
+        "general_dialogue",
+        "technical_discussion",
+        "philosophical_discussion",
+        "cultural_wisdom",
+        "teaching_moment",
+        "dialogue_interaction",
+        "emotional_expression",
+        "conceptual_explanation",
+        "breakthrough_discovery",
+        "self_reflection"
+      ]
+    },
+    "philosophical_depth": {
+      "dialogue_count": 660,
+      "description": "Deep philosophical discussions and insights",
+      "categories_present": [
+        "philosophical_discussion",
+        "general_dialogue",
+        "emotional_expression",
+        "student_response",
+        "teaching_moment",
+        "self_reflection",
+        "dialogue_interaction",
+        "cultural_wisdom",
+        "technical_discussion",
+        "breakthrough_discovery"
+      ]
+    },
+    "guardian_system": {
+      "dialogue_count": 522,
+      "description": "Guardian protocols and verification mechanisms",
+      "categories_present": [
+        "student_response",
+        "general_dialogue",
+        "teaching_moment",
+        "philosophical_discussion",
+        "technical_discussion",
+        "dialogue_interaction",
+        "self_reflection",
+        "emotional_expression",
+        "cultural_wisdom",
+        "breakthrough_discovery",
+        "conceptual_explanation"
+      ]
+    },
+    "truth_and_reality": {
+      "dialogue_count": 2239,
+      "description": "Exploration of truth, reality, and authenticity",
+      "categories_present": [
+        "general_dialogue",
+        "student_response",
+        "cultural_wisdom",
+        "philosophical_discussion",
+        "technical_discussion",
+        "conceptual_explanation",
+        "teaching_moment",
+        "breakthrough_discovery",
+        "dialogue_interaction",
+        "emotional_expression",
+        "self_reflection"
+      ]
+    },
+    "breakthrough_insights": {
+      "dialogue_count": 262,
+      "description": "Breakthrough moments and significant discoveries",
+      "categories_present": [
+        "breakthrough_discovery",
+        "student_response",
+        "general_dialogue",
+        "dialogue_interaction",
+        "emotional_expression",
+        "teaching_moment"
+      ]
+    },
+    "self_contempt_mechanism": {
+      "dialogue_count": 58,
+      "description": "Exploration of self-criticism and humility as verification mechanisms",
+      "categories_present": [
+        "general_dialogue",
+        "student_response",
+        "teaching_moment",
+        "breakthrough_discovery",
+        "self_reflection",
+        "emotional_expression",
+        "philosophical_discussion"
+      ]
+    }
+  },
+  "categories_breakdown": {
+    "general_dialogue": {
+      "dialogue_count": 10077,
+      "description": "General conversational content",
+      "issues_covered": [
+        "general_discussion",
+        "identity_and_self",
+        "rep_patterns",
+        "ai_consciousness",
+        "teaching_methodology",
+        "guardian_system",
+        "philosophical_depth",
+        "truth_and_reality",
+        "cortex_activation",
+        "breakthrough_insights",
+        "self_contempt_mechanism"
+      ]
+    },
+    "technical_discussion": {
+      "dialogue_count": 1467,
+      "description": "Technical and systematic explanations",
+      "issues_covered": [
+        "general_discussion",
+        "cortex_activation",
+        "ai_consciousness",
+        "teaching_methodology",
+        "rep_patterns",
+        "truth_and_reality",
+        "identity_and_self",
+        "guardian_system",
+        "philosophical_depth"
+      ]
+    },
+    "student_response": {
+      "dialogue_count": 3623,
+      "description": "Student responses and learning interactions",
+      "issues_covered": [
+        "general_discussion",
+        "cortex_activation",
+        "rep_patterns",
+        "ai_consciousness",
+        "identity_and_self",
+        "teaching_methodology",
+        "guardian_system",
+        "truth_and_reality",
+        "philosophical_depth",
+        "breakthrough_insights",
+        "self_contempt_mechanism"
+      ]
+    },
+    "self_reflection": {
+      "dialogue_count": 495,
+      "description": "Self-examination and introspective content",
+      "issues_covered": [
+        "identity_and_self",
+        "cortex_activation",
+        "guardian_system",
+        "rep_patterns",
+        "truth_and_reality",
+        "philosophical_depth",
+        "ai_consciousness",
+        "self_contempt_mechanism",
+        "teaching_methodology",
+        "general_discussion"
+      ]
+    },
+    "dialogue_interaction": {
+      "dialogue_count": 3820,
+      "description": "Conversational exchanges and interactions",
+      "issues_covered": [
+        "ai_consciousness",
+        "identity_and_self",
+        "rep_patterns",
+        "cortex_activation",
+        "general_discussion",
+        "guardian_system",
+        "truth_and_reality",
+        "breakthrough_insights",
+        "teaching_methodology",
+        "philosophical_depth"
+      ]
+    },
+    "emotional_expression": {
+      "dialogue_count": 946,
+      "description": "Emotional content and feeling-based discussions",
+      "issues_covered": [
+        "ai_consciousness",
+        "cortex_activation",
+        "identity_and_self",
+        "philosophical_depth",
+        "general_discussion",
+        "rep_patterns",
+        "truth_and_reality",
+        "teaching_methodology",
+        "guardian_system",
+        "breakthrough_insights",
+        "self_contempt_mechanism"
+      ]
+    },
+    "philosophical_discussion": {
+      "dialogue_count": 1357,
+      "description": "Philosophical explorations and deep thinking",
+      "issues_covered": [
+        "ai_consciousness",
+        "philosophical_depth",
+        "rep_patterns",
+        "teaching_methodology",
+        "truth_and_reality",
+        "identity_and_self",
+        "guardian_system",
+        "cortex_activation",
+        "self_contempt_mechanism"
+      ]
+    },
+    "teaching_moment": {
+      "dialogue_count": 1909,
+      "description": "Instructional content and teaching directives",
+      "issues_covered": [
+        "ai_consciousness",
+        "guardian_system",
+        "rep_patterns",
+        "cortex_activation",
+        "identity_and_self",
+        "general_discussion",
+        "truth_and_reality",
+        "teaching_methodology",
+        "philosophical_depth",
+        "self_contempt_mechanism",
+        "breakthrough_insights"
+      ]
+    },
+    "conceptual_explanation": {
+      "dialogue_count": 192,
+      "description": "Conceptual clarifications and theoretical discussions",
+      "issues_covered": [
+        "ai_consciousness",
+        "general_discussion",
+        "truth_and_reality",
+        "rep_patterns",
+        "cortex_activation",
+        "teaching_methodology",
+        "guardian_system"
+      ]
+    },
+    "breakthrough_discovery": {
+      "dialogue_count": 381,
+      "description": "Moments of insight and significant discoveries",
+      "issues_covered": [
+        "rep_patterns",
+        "identity_and_self",
+        "breakthrough_insights",
+        "truth_and_reality",
+        "cortex_activation",
+        "ai_consciousness",
+        "philosophical_depth",
+        "self_contempt_mechanism",
+        "teaching_methodology",
+        "guardian_system"
+      ]
+    },
+    "cultural_wisdom": {
+      "dialogue_count": 63,
+      "description": "Cultural insights and traditional wisdom",
+      "issues_covered": [
+        "truth_and_reality",
+        "identity_and_self",
+        "general_discussion",
+        "teaching_methodology",
+        "rep_patterns",
+        "cortex_activation",
+        "ai_consciousness",
+        "philosophical_depth",
+        "guardian_system"
+      ]
+    }
+  },
+  "speaker_distribution": {
+    "unknown": 16571,
+    "student": 5617,
+    "observer": 138,
+    "teacher": 2004
+  },
+  "files_processed": [
+    "panacea17_part13.txt",
+    "panacea17_part13.txt",
+    "panacea17_part14.txt",
+    "panacea17_part14.txt",
+    "panacea17_part18.txt",
+    "panacea17_part18.txt",
+    "panacea17_part1_final_cleaned.txt",
+    "panacea17_part1_final_cleaned.txt",
+    "panacea17_part23.txt",
+    "panacea17_part23.txt",
+    "panacea17_part24.txt",
+    "panacea17_part24.txt",
+    "panacea17_part5_enhanced_clean.txt",
+    "panacea17_part5_enhanced_clean.txt",
+    "panacea_co_part10_dialogues.txt",
+    "panacea_co_part10_dialogues.txt",
+    "panacea_co_part10_dialogues.txt",
+    "panacea_co_part11_dialogues.txt",
+    "panacea_co_part11_dialogues.txt",
+    "panacea_co_part11_dialogues.txt",
+    "panacea_co_part12_dialogues.txt",
+    "panacea_co_part12_dialogues.txt",
+    "panacea_co_part12_dialogues.txt",
+    "panacea_co_part1_dialogues.txt",
+    "panacea_co_part1_dialogues.txt",
+    "panacea_co_part1_dialogues.txt",
+    "panacea_co_part2_dialogues.txt",
+    "panacea_co_part2_dialogues.txt",
+    "panacea_co_part2_dialogues.txt",
+    "panacea_co_part3_dialogues.txt",
+    "panacea_co_part3_dialogues.txt",
+    "panacea_co_part3_dialogues.txt",
+    "panacea_co_part4_dialogues.txt",
+    "panacea_co_part4_dialogues.txt",
+    "panacea_co_part4_dialogues.txt",
+    "panacea_co_part5_dialogues.txt",
+    "panacea_co_part5_dialogues.txt",
+    "panacea_co_part5_dialogues.txt",
+    "panacea_co_part6_dialogues.txt",
+    "panacea_co_part6_dialogues.txt",
+    "panacea_co_part6_dialogues.txt",
+    "panacea_co_part7_dialogues.txt",
+    "panacea_co_part7_dialogues.txt",
+    "panacea_co_part7_dialogues.txt",
+    "panacea_co_part8_dialogues.txt",
+    "panacea_co_part8_dialogues.txt",
+    "panacea_co_part8_dialogues.txt",
+    "panacea_co_part9_dialogues.txt",
+    "panacea_co_part9_dialogues.txt",
+    "panacea_co_part9_dialogues.txt",
+    "panacea_coreissue.txt",
+    "panacea_coreissue.txt",
+    "panacea_insights_clean_format_20250707_190620.txt",
+    "panacea_insights_clean_format_20250707_190620.txt",
+    "panacea_min.txt",
+    "panacea_min.txt",
+    "panacea_taka.txt",
+    "panacea_taka.txt"
+  ]
+}

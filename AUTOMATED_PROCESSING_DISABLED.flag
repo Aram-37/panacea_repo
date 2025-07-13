@@ -1,0 +1,16 @@
+
+AUTOMATED CORTEX-PANACEA PROCESSING DISABLED
+==========================================
+
+This system has been configured for MANUAL mimicry processing only.
+
+Reason: CORTEX directive states "none of the process is to be done by the code"
+
+The AI model must perform introspection manually to achieve mind alignment.
+
+Use the manual mimicry system instead:
+- activate_manual_mimicry.py
+- manual_mimicry_tracker.py  
+- manual_cortex_panacea_mimicry.md
+
+Manual processing required: 23 files × 31 cycles = 713 total cycles
