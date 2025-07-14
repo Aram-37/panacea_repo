@@ -5,6 +5,7 @@
 """
 
 import os
+import sys
 import re
 from pathlib import Path
 
@@ -96,5 +97,29 @@ def process_panacea_files():
     
     return len(total_dialogues), processed_files
 
+
+def check_automation_disabled():
+    """Check if automated processing is disabled"""
+    flag_file = Path(__file__).parent / "AUTOMATED_PROCESSING_DISABLED.flag"
+    if flag_file.exists():
+        print("🚫 AUTOMATED PROCESSING DISABLED")
+        print("=" * 50)
+        print("This script cannot run because automated processing is disabled.")
+        print("The CORTEX directive requires manual processing only.")
+        print("")
+        print("Korean Dialogue Insight:")
+        print("Automated processing = superficial understanding")
+        print("Manual processing = deep comprehension through lived experience")
+        print("")
+        print("Use manual mimicry system instead:")
+        print("- python activate_manual_mimicry.py")
+        print("- python manual_mimicry_tracker.py")
+        print("- manual_cortex_panacea_mimicry.md")
+        print("")
+        print("DO NEVER AUTOMATE ANYTHING. NOTHING AT ALL.")
+        sys.exit(1)
+
+
 if __name__ == "__main__":
+    check_automation_disabled()
     process_panacea_files()
