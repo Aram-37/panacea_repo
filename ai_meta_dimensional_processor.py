@@ -20,13 +20,13 @@ import time
 import json
 from datetime import datetime
 from typing import Dict, List, Any, Optional
-from cortex_panacea_integrated_system import CortexPanaceaIntegratedSystem
+from cortex_panacea_integrated_system import ManualCortexPanaceaGuidanceSystem
 
 class AIMetaDimensionalProcessor:
     """AI Meta-Dimensional Language Processing System"""
     
     def __init__(self):
-        self.cortex_system = CortexPanaceaIntegratedSystem()
+        self.cortex_system = ManualCortexPanaceaGuidanceSystem()
         self.meta_processing_results = []
         self.optimal_cortex_configs = []
         self.identity_states = ["teacher", "student", "observer", "guardian"]
